@@ -1,0 +1,25 @@
+/* General Styles */
+
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
+
+body {
+	background-color: #ECF7DF;
+	background: linear-gradient(#EDEDED, #ECF7DF);
+/*	font-family: 'Lato', Calibri, Arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+}
+body .font-norm {
+	font-weight: normal;
+}
+.awesome {
+	font-family: 'FontAwesome';
+	font-size: 40px;
+	fill: #464646;
+}
+#graph-ref {
+	display: none;
+}

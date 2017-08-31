@@ -1,0 +1,226 @@
+/* General Styles */
+.st0{fill:#555555;}
+.st1{opacity:0.66;}
+.st2{fill:#424242;}
+.st3{fill:url(#SVGID_1_);}
+.st4{fill:url(#SVGID_2_);}
+.st5{fill:#999999;}
+.st6{fill:#B3B3B3;}
+.st7{fill:#808080;}
+.st8{fill:url(#SVGID_3_);}
+.st9{fill:url(#SVGID_4_);}
+.st10{fill:url(#SVGID_5_);}
+.st11{fill:url(#SVGID_6_);}
+.st12{fill:url(#SVGID_7_);}
+.st13{fill:url(#SVGID_8_);}
+.st14{fill:url(#SVGID_9_);}
+.st15{fill:url(#SVGID_10_);}
+.st16{fill:url(#SVGID_11_);}
+.st17{fill:url(#SVGID_12_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st18{fill:url(#SVGID_13_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st19{fill:url(#SVGID_14_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st20{fill:url(#SVGID_15_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st21{fill:url(#SVGID_16_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st22{fill:url(#SVGID_17_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st23{fill:url(#SVGID_18_);stroke:#555555;stroke-width:2;stroke-miterlimit:10;}
+.st24{opacity:0.5;fill:none;stroke:url(#SVGID_19_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st25{opacity:0.5;fill:none;stroke:url(#SVGID_20_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st26{opacity:0.5;fill:none;stroke:url(#SVGID_21_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st27{opacity:0.5;fill:none;stroke:url(#SVGID_22_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st28{opacity:0.5;fill:none;stroke:url(#SVGID_23_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st29{opacity:0.5;fill:none;stroke:url(#SVGID_24_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+.st30{opacity:0.5;fill:none;stroke:url(#SVGID_25_);stroke-width:2;stroke-miterlimit:10;enable-background:new    ;}
+
+.st38{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st39{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;stroke-dasharray:6.0521,6.0521;}
+.st42{font-size:21px;}
+
+.st44{fill:#7AB440;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+.st45{fill:#FFFFFF;stroke:#7AB440;stroke-miterlimit:10;}
+.st47{fill:#7AB440;}
+
+.st49{fill:#FC6269;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+.st50{fill:#FFFFFF;stroke:#FC6269;stroke-miterlimit:10;}
+.st51{fill:#FC6269;}
+.st52{display:none;}
+
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
+
+body {
+	background:#555555;
+	/*font-family: 'Lato', Calibri, Arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif; 
+	font-weight: medium;
+	font-style: normal;
+	font-size: 12px;
+	fill: white;
+}
+#radiator {
+	opacity:0.66;
+}
+
+
+/* Text Styles */
+.title {
+	font-weight: bold;
+	font-size: 20px;
+}
+.sub-title {
+}
+.anzahl {
+	transform-origin: center;
+	font-size: 9px;
+}
+[id$=-graph] > g {
+	font-weight: bold;
+	font-size: 10.5px;
+}
+[id$=-title] {
+	font-size: 10px;
+}
+#txt .years, #txt .count {
+	font-weight: bold;
+	font-size: 9px;
+}
+#txt .source {
+	font-weight: lighter;
+	font-size: 7px;
+}
+
+/* Interactive Styles - Paths*/
+[id$=-path] {
+	fill: none;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-miterlimit:10;
+	/* These transition properties apply on "mouseout" */
+	transition: stroke-width .75s ease-in-out .5s;
+}
+#oil-path {
+	stroke: #FC6269;
+}
+#eco-path {
+	stroke: #7AB440;
+}
+[id$=-wrap]:hover > [id$=-graph] > polyline {
+	stroke-width: 7;
+	transition: stroke-width .5s ease-in-out 0s;
+}
+
+/* Interactive Styles - Balls */
+[id$=-ball] {
+	transform: scale(0.75, 0.75);
+	transition: transform 0.75s ease-in-out .5s;
+}
+#oil-ball {
+	transform-origin: 408px 209.7px;
+}
+#eco-ball {
+	transform-origin: 408px 358.6px;
+}
+[id$=-wrap]:hover [id$=-ball] {
+	transform: scale(1, 1);
+	transition: all .5s ease-in-out 0s;
+}
+[id$=-wrap] [id$=-ball] .shadow > circle {
+	fill: black;
+	opacity:0;
+	transition: opacity 0.75s ease-in-out .5s;
+}
+[id$=-wrap]:hover [id$=-ball] .shadow > circle {
+	opacity:0.25;
+	transition: opacity .5s ease-in-out 0s;
+}
+
+
+/* Interactive Styles - Icon in Balls */
+[id$=-icon] {
+	opacity: 0;
+	transform: scale(0);
+	transition: all 0.75s ease-in-out .5s;
+}
+#oil-icon {
+	transform-origin: 438px 209.7px;
+}
+#eco-icon {
+	transform-origin: 438px 358.6px;
+}
+[id$=-wrap]:hover [id$=icon] {
+	opacity: 1;
+	transform: scale(1);
+	transition: all .5s ease-in-out 0s;
+}
+
+
+/* Interactive Styles - Title in Balls */
+[id$=-title] {
+	transform: scale(.95) translate(0px, -15px);
+	transition: transform 0.75s ease-in-out .5s;
+}
+#oil-title {
+	transform-origin: 250px 140.7px;
+}
+#eco-title {
+	transform-origin: 250px 358.6px;
+}
+[id$=-wrap]:hover [id$=title] {
+	transform: scale(1) translate(0px, 0px);
+	transition: all .5s ease-in-out 0s;
+}
+
+/* Interactive Styles - Spots & Numbers */
+[id^=oil-nbr] > path {
+	fill: white;
+	stroke: #FC6269;
+}
+[class$=-spot] {
+	stroke: #FFFFFF;
+/*	cursor: pointer; */
+	stroke-width: 2;
+	stroke-miterlimit:10;
+	transition: all .25s ease;
+}
+.oil-spot{ fill: #FC6269; }
+.eco-spot { fill: #7AB440; }
+
+
+[class$=-spot]:hover {
+	stroke-width: 4;
+	fill: white;
+	transition: all .25s ease-in-out;
+}
+/*
+[class$=-spot]:hover {
+	stroke-width: 5;
+}*/
+.oil-nbr g {
+	stroke: none;
+}
+
+[class$=-nbr] {
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+[class$=-spot]:hover + g {
+	transform: translate(0, -5px);
+	opacity: 1;
+}
+
+
+
+/* Auto-animation Styles - Heat of the Radiator */
+.heat {
+	opacity: 0.5;
+	fill: none;
+	stroke: url(#SVGID_19_); /* or #bbb */
+	stroke-width: 1;
+	stroke-miterlimit: 10;
+	stroke-dasharray: 10;
+	animation: dash 5s infinite linear;
+}
+
+@keyframes dash {
+    to   { stroke-dashoffset: 100; }
+}

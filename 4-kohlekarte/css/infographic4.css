@@ -1,0 +1,251 @@
+/* General Styles */
+.st0{fill:#A4CACF;}
+.st1{fill:#4995A0;stroke:#A4CACF;stroke-width:0.75;stroke-miterlimit:10;}
+.st2{fill:#f2f2f2;}
+.st3{font-size:6px;}
+.st4{font-size:8px;}
+.st5{fill:#353535;}
+.st6{fill:none;stroke:#464646;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;}
+.st7{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
+.st8{fill:none;stroke:#353535;stroke-miterlimit:10;}
+.st9{font-size:20px;}
+.st10{font-size:15px;}
+.st11{fill:#6C351C;}
+.st12{fill:#D8D8D8;}
+.st13{font-family:'FontAwesome';}
+.st14{font-size:6.4px;}
+.st18{fill:#9D664D;}
+.st20{fill:#7D462D;}
+.st22{fill:none;stroke:#6C351C;stroke-width:2;stroke-miterlimit:10;}
+.st29{fill:none;stroke:#353535;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st32{fill:#666666;}
+.st34{fill:#464646;}
+.st39{letter-spacing:-1;}
+.st40{fill:none;stroke:#9D664D;stroke-linecap:round;stroke-miterlimit:10;}
+.st41{fill:none;stroke:#6C351C;stroke-linecap:round;stroke-miterlimit:10;}
+.st42{fill:none;stroke:#7D462D;stroke-linecap:round;stroke-miterlimit:10;}
+.st43{fill:none;stroke:#353535;stroke-width:0.5;stroke-miterlimit:10;}
+.st44{fill:#FD8187;}
+.st45{fill:#FFFFFF;}
+.st46{font-size:6.5px;}
+.st47{opacity:0.75;fill:#FFFFFF;}
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
+
+body {
+	background:#BFDDDC;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+}
+
+/* Text Styles */
+#title {
+	font-size: 20px;
+	fill: #353535;
+}
+#title .title-s {
+	font-size: 13px;
+}
+#info-line-2 {
+	font-weight: normal;
+}
+#background {
+	font-weight: lighter;
+}
+
+/* Kraftwerk styles */
+[id^=kraftwerk] .factory-path {
+	fill: #6C351C;
+	stroke: #BFDDDC;
+	stroke-width: .5;
+	transition: stroke-width .5s ease;
+}
+#kraftwerk8 .factory-path {
+	fill: #353535;
+}
+[id^=kraftwerk]:hover .factory-path, [id^=kraftwerk].selected .factory-path {
+	stroke-width: .33;
+	transition: stroke-width .5s ease;
+}
+/* Kraftwerk animations */
+[id^=kraftwerk] {
+	cursor: pointer;
+}
+[id^=kraftwerk] .power {
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+[id^=kraftwerk]:hover > .power {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+[id^=kraftwerk].selected > .power {
+	opacity: 1;
+}
+
+/* Kraftwerk names */
+[id^=select] > [class^=factory-name] {
+	visibility: hidden;
+	opacity: 0;
+	transition: all .5s .5s ease;
+}
+[id^=select] > .factory-name-top {
+	transform: translate(0, 3px);
+	transition: all .5s ease;
+}
+[id^=select] > .factory-name-bottom {
+	transform: translate(0, -3px);
+	transition: all .5s ease;
+}
+[id^=select] > .factory-name-right {
+	transform: translate(-3px, 0);
+	transition: all .5s ease;
+}
+[id^=select] > [id^=kraftwerk]:hover + [class^=factory-name] {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0);
+	transition: all .5s ease;
+}
+[id^=select] > [id^=kraftwerk].selected + [class^=factory-name] {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0);
+	transition: all .5s ease;
+}
+
+
+/* Line factories to Ghraphs */
+.line-a {
+	fill:none;
+	stroke: #6C351C;
+	stroke-width: 2;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+}
+#select8 .line-a {
+	stroke:#353535;
+}
+
+[id^=kraftwerk] ~ .line-b line {
+	visibility: hidden;
+	opacity: 0;
+	stroke-dasharray: 16;
+	stroke-dashoffset: 16;
+}
+[id^=kraftwerk].selected ~ .line-b line {
+	visibility: visible;
+	opacity: 1;
+	animation: lineB .15s .25s ease forwards;
+}
+@keyframes lineB {
+	to { stroke-dashoffset: 0; }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {  /* This for IE */
+[id^=kraftwerk].selected ~ .line-b line {
+		stroke-dashoffset: 0;
+		transition: all .5s ease;
+	}
+}
+/* years graphs colors & more */
+[class^=year-] {
+	fill: none;
+	stroke-width:7;
+	stroke-miterlimit:10;
+}
+.year-2013 {stroke:#9D664D;}
+.year-2014 {stroke:#7D462D;}
+.year-2015 {stroke:#6C351C;}
+#select8 .year-2013 {stroke:#666666;}
+#select8 .year-2014 {stroke:#464646;}
+#select8 .year-2015 {stroke:#353535;}
+[id^=kraftwerk] ~ .graphs .year-bg {
+	visibility: hidden;
+	opacity: 0;
+	transition: all .5s ease;
+}
+[id^=kraftwerk].selected ~ .graphs .year-bg {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s ease;
+}
+
+/* grid behind the years graphs */
+[class^=grid] {
+	fill: none;
+	stroke: #FFFFFF;
+	stroke-miterlimit: 10;
+}
+.grid-a{ 
+	stroke-width: 0.66;
+	stroke-dasharray: 3;
+}
+.grid-b{ 
+	stroke-width:0.33;
+	stroke-dasharray: 3;
+}
+.grid-bg {
+	opacity: 0.5;
+	stroke: url(#SVGID);
+	stroke-width: 32;
+}
+
+/* appearing years above graphs */
+.graphs .nbr {
+	visibility: hidden;
+	opacity: 0;
+	transform: translate(0, 5px);
+	transition: all .5s ease;
+}
+ .graphs [class^=year-]:hover + .nbr {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0);
+	transition: all .5s ease;
+}
+
+
+#infotext-1.hide, #legende, #txt, #infotext-2 {
+	visibility: hidden;
+	opacity: 0;
+	transition: all .5s ease;
+}
+#infotext-1, #legende.show {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s .5s ease;
+}
+#txt.show, #infotext-2.show {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s ease;
+}
+
+#info-line-2 {
+	visibility: hidden;
+	opacity: 0;
+	transform: translate(25px, 0);
+	transition: all .5s ease;
+}
+#info-icon-2:hover ~ #info-line-2 {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0);
+	transition: all .5s ease;
+}
+
+#txt #txt-co2 {
+	transition: all .5s ease;
+	transform: translate(0, -10px);
+}
+#txt.show #txt-co2 {
+	transform: translate(0, 0);
+	transition: all .5s ease;
+}
+
+/* Reset styles */
+#reset {
+	cursor: pointer;
+}
