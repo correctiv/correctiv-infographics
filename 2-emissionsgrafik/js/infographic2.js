@@ -22,9 +22,6 @@ Snap.load("infographic2.svg", function(f) {
 				if (infosAll[i].attr('class') == iconClass ) {
 					infosAll[i].addClass('check');
 				}
-				if (infosAll[i].attr('class') == iconClass && infosAll[i].attr('id').indexOf(btw) == 0) {
-					console.log(infosAll[i]);
-				}
 			}
 
 		});
