@@ -538,9 +538,9 @@
 
 		<text transform="matrix(1 0 0 1 69.3273 1083.6683)" class="st19 font-reg st13">Quellen: Emissionsdaten 2013 und 2016: UBA, Projektion 2020: Projektionsbericht 2015, Tabelle 1-3 (S. 24)</text>
 
-		<text id="credits" transform="matrix(1 0 0 1 312.2892 1122.2764)" class="st33 font-reg st25">
-			<a id="g1" href="https://correctiv.org/">Correctiv.org</a> | 
-			<a id="g1" href="http://www.klimaretter.info/"> Klimaretter.info</a> | Design: 
-			<a id="g1" href="http://www.kreataz.com/">kreataz</a></text>
+		<text id="credits" transform="matrix(1 0 0 1 312.2892 1122.2764)" class="st33 font-reg st24">
+			<a id="g1" href="https://correctiv.org/" target="_blank">Correctiv.org</a> | 
+			<a id="g1" href="http://www.klimaretter.info/" target="_blank"> Klimaretter.info</a> | Design: 
+			<a id="g1" href="http://www.kreataz.com/" target="_blank">kreataz</a></text>
 	</g>
 </svg>
