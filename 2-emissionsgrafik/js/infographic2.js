@@ -6,13 +6,6 @@ Snap.load("infographic2.svg", function(f) {
 
 	var infosAll = f.selectAll("*[class^='info-']");
 
-	// Animation box Lines in Between:
-	var boxLineL = f.selectAll("*[id^='btw-']>line:first-child"),
-		boxLineR = f.selectAll("*[id^='btw-']>line:nth-child(2)");
-	boxLineL.attr({ x2 : '540'});
-	boxLineR.attr({ x2 : '858'});
-
-
 	infosAll.forEach( function(a) {
 
 		a.mouseover(function(e) { 
