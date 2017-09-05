@@ -14,5 +14,11 @@ body {
 body .font-reg {
 	font-weight: normal;
 }
+#credits a {
+	fill: #4995A0;
+}
+#credits a:hover {
+	fill: #55ADBA;
+}
 
 /* styles: */
