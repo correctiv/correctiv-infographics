@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 550" style="enable-background:new 0 0 500 550;" xml:space="preserve">
+	 viewBox="0 0 500 575" style="enable-background:new 0 0 500 575;" xml:space="preserve">
 
 <g id="main-svg">
 	<g id="background">
@@ -841,7 +841,7 @@
 				</g>
 			</g>
 			<g class="factory-name-top"><text transform="matrix(1 0 0 1 75.8568 277.9957)"><tspan x="0" y="0" class="st11 st4">Neurath</tspan><tspan x="5.9" y="8" class="st11 st4">RWE</tspan></text></g>
-			<path class="line-a" class="st15" d="M91.1,270.5 91.1,254.3 110,236.3 110,208.9"/>
+			<path class="line-a" d="M91.1,270.5 91.1,254.3 110,236.3 110,208.9"/>
 			<g class="graphs">
 				<linearGradient id="SVGID" gradientUnits="userSpaceOnUse" x1="110.0382" y1="208.9705" x2="110.0382" y2="68.9705">
 					<stop  offset="0.8" style="stop-color:#FFFFFF"/>
@@ -895,7 +895,7 @@
 				</g>
 			</g>
 			<g class="factory-name-right"><text transform="matrix(1 0 0 1 139.5117 315.7809)"><tspan x="0" y="0" class="st11 st4">Niederaußem</tspan><tspan x="0" y="8" class="st11 st4">RWE</tspan></text></g>
-			<path class="line-a" class="st15" d="M137.8,306.5 190,253.3 190,208.9"/>
+			<path class="line-a" d="M137.8,306.5 190,253.3 190,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="190" y1="209" x2="190" y2="69"/>
@@ -946,7 +946,7 @@
 				</g>
 			</g>
 			<g class="factory-name-top"><text transform="matrix(1 0 0 1 363.571 228.5675)"><tspan x="0" y="0" class="st11 st4">Jänschwalde</tspan><tspan x="14.9" y="8" class="st11 st4">Leag</tspan></text></g>
-			<path class="line-a" class="st15" d="M390,221.3 390,208.9"/>
+			<path class="line-a" d="M390,221.3 390,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="390" y1="209" x2="390" y2="69"/>
@@ -996,7 +996,7 @@
 				</g>
 			</g>
 			<g class="factory-name-right"><text transform="matrix(1 0 0 1 416.9964 281.7813)"><tspan x="0" y="0" class="st11 st4">Boxberg</tspan><tspan x="0" y="8" class="st11 st4">Leag</tspan></text></g>
-			<path class="line-a" class="st15" d="M414.1,271.3 430,254.3 430,208.9"/>
+			<path class="line-a" d="M414.1,271.3 430,254.3 430,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="430" y1="209" x2="430" y2="69"/>
@@ -1046,7 +1046,7 @@
 				</g>
 			</g>
 			<g class="factory-name-bottom"><text transform="matrix(1 0 0 1 73.6943 347.114)"><tspan x="0" y="0" class="st11 st4">Weisweiler</tspan><tspan x="11" y="8" class="st11 st4">RWE</tspan></text></g>
-			<path class="line-a" class="st15" d="M78,325.3 70,316.3 70,208.9"/>
+			<path class="line-a" d="M78,325.3 70,316.3 70,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="70" y1="209" x2="70" y2="69"/>
@@ -1096,7 +1096,7 @@
 				</g>
 			</g>
 			<g class="factory-name-bottom"><text transform="matrix(1 0 0 1 338.175 303.2411)"><tspan x="0" y="0" class="st11 st4">Schwarze Pumpe</tspan><tspan x="22.5" y="8" class="st11 st4">Leag</tspan></text></g>
-			<path class="line-a" class="st15" d="M354,280.3 350,276.3 350,208.9"/>
+			<path class="line-a" d="M354,280.3 350,276.3 350,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="350" y1="209" x2="350" y2="69"/>
@@ -1146,7 +1146,7 @@
 				</g>
 			</g>
 			<g class="factory-name-bottom"><text transform="matrix(1 0 0 1 301.5504 319.2563)"><tspan x="0" y="0" class="st11 st4">Lippendorf</tspan><tspan x="-1.5" y="8" class="st11 st4">Leag/EnBW</tspan></text></g>
-			<path class="line-a" class="st15" d="M323,285.8 323,252.3 310,238.3 310,208.9"/>
+			<path class="line-a" d="M323,285.8 323,252.3 310,238.3 310,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="310" y1="209" x2="310" y2="69"/>
@@ -1246,7 +1246,7 @@
 				</g>
 			</g>
 			<g class="factory-name-top"><text transform="matrix(1 0 0 1 254.4729 263.6683)"><tspan x="0" y="0" class="st11 st4">Schkopau -Uniper     </tspan><tspan x="12.8" y="8" class="st11 st4">Saale Energie</tspan></text></g>
-			<path class="line-a" class="st15" d="M291,255.8 270,233.8 270,208.9"/>
+			<path class="line-a" d="M291,255.8 270,233.8 270,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="270" y1="209" x2="270" y2="69"/>
@@ -1296,7 +1296,7 @@
 				</g>
 			</g>
 			<g class="factory-name-top"><text transform="matrix(1 0 0 1 95.0169 262.6276)"><tspan x="0" y="0" class="st11 st4">Frimmersdorf</tspan><tspan x="16.1" y="8" class="st11 st4">RWE</tspan></text></g>
-			<path class="line-a" class="st15" d="M120.2,255.1 150,224.3 150,208.9"/>
+			<path class="line-a" d="M120.2,255.1 150,224.3 150,208.9"/>
 			<g class="graphs">
 				<g class="year-bg">
 					<line class="grid-bg" x1="150" y1="209" x2="150" y2="69"/>
@@ -1389,12 +1389,13 @@
 				<path class="st43" d="M488,177.9h-86c-2.8,0-5-2.2-5-5v-23c0-2.8,2.2-5,5-5h86c2.8,0,5,2.2,5,5v23
 					C493,175.7,490.7,177.9,488,177.9z"/>
 			</g>
-			<text transform="matrix(1 0 0 1 401.4946 154.4511)"><tspan x="0" y="0" class="st5 st4">Für mehr Informationen,</tspan><tspan x="6.3" y="9.6" class="st5 st4">passen Sie die Maus </tspan><tspan x="12.9" y="19.2" class="st5 st4">über die Grafiken</tspan></text>
+			<text transform="matrix(1 0 0 1 401.4946 154.4511)"><tspan x="0" y="0" class="font-reg st5 st4">Für mehr Informationen,</tspan><tspan x="6.3" y="9.6" class="font-reg st5 st4">passen Sie die Maus </tspan><tspan x="12.9" y="19.2" class="font-reg st5 st4">über die Grafiken</tspan></text>
 		</g>
 	</g>
 </g> <!-- End "info-boards" -->
 
 <g id="txt">
+	<text transform="matrix(1 0 0 1 73.0909 557)"><tspan x="0" y="0" class="font-reg st15 st4">Quelle:  Emissionshandelspflichtige stationäre Anlagen und Luftverkehr in Deutschland (VET-Bericht 2016), </tspan><tspan x="46.1" y="9.6" class="font-reg st15 st4"> Herausgeber: Deutsche Emissionshandelsstelle (DEHSt) im Umweltbundesamt</tspan></text>
 	<g>
 		<text transform="matrix(1 0 0 1 30.4101 209.4332)" class="st5 st4">0</text>
 		<text transform="matrix(1 0 0 1 25.8203 169.4881)" class="st5 st4">10</text>

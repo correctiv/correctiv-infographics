@@ -14,6 +14,7 @@
 .st12{fill:#D8D8D8;}
 .st13{font-family:'FontAwesome';}
 .st14{font-size:6.4px;}
+.st15{fill:#1B7A88;}
 .st18{fill:#9D664D;}
 .st20{fill:#7D462D;}
 .st22{fill:none;stroke:#6C351C;stroke-width:2;stroke-miterlimit:10;}
@@ -48,7 +49,7 @@ body {
 #title .title-s {
 	font-size: 13px;
 }
-#info-line-2 {
+.font-reg {
 	font-weight: normal;
 }
 #background {
