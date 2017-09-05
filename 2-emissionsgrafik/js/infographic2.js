@@ -28,7 +28,6 @@ Snap.load("infographic2.svg", function(f) {
 							lineR = thatInfo.select("line:nth-child(2)");
 						lineL.animate({ x2 : '579'}, 350, mina.ease);
 						lineR.animate({ x2 : '819'}, 350, mina.ease);
-						console.log(thatInfo);
 					}
 
 				}
@@ -48,7 +47,6 @@ Snap.load("infographic2.svg", function(f) {
 							lineR = thatInfo.select("line:nth-child(2)");
 						lineL.animate({ x2 : '540'}, 350, mina.ease);
 						lineR.animate({ x2 : '858'}, 350, mina.ease);
-						console.log(thatInfo);
 					}
 
 				}
