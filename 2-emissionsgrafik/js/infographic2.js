@@ -6,6 +6,13 @@ Snap.load("infographic2.svg", function(f) {
 
 	var infosAll = f.selectAll("*[class^='info-']");
 
+	// Animation box Lines in Between:
+	var boxLineL = f.selectAll("*[id^='btw-']>line:first-child"),
+		boxLineR = f.selectAll("*[id^='btw-']>line:nth-child(2)");
+	boxLineL.attr({ x2 : '540'});
+	boxLineR.attr({ x2 : '858'});
+
+
 	infosAll.forEach( function(a) {
 
 		a.mouseover(function(e) { 
@@ -13,7 +20,17 @@ Snap.load("infographic2.svg", function(f) {
 
 			for (var i = 0; i < infosAll.length; i++) {
 				if (infosAll[i].attr('class') == iconClass ) {
-					infosAll[i].addClass('check');
+					thatInfo = infosAll[i];
+					thatInfo.addClass('check');
+
+					if (thatInfo.attr('id') == "btw-farming" || thatInfo.attr('id') == "btw-building" || thatInfo.attr('id') == "btw-transport" || thatInfo.attr('id') == "btw-energy" ) {
+						var lineL = thatInfo.select("line:first-child"),
+							lineR = thatInfo.select("line:nth-child(2)");
+						lineL.animate({ x2 : '579'}, 350, mina.ease);
+						lineR.animate({ x2 : '819'}, 350, mina.ease);
+						console.log(thatInfo);
+					}
+
 				}
 			}
 
@@ -25,6 +42,15 @@ Snap.load("infographic2.svg", function(f) {
 			for (var i = 0; i < infosAll.length; i++) {
 				if (infosAll[i].attr('class') == iconClass) {
 					infosAll[i].removeClass('check');
+
+					if (thatInfo.attr('id') == "btw-farming" || thatInfo.attr('id') == "btw-building" || thatInfo.attr('id') == "btw-transport" || thatInfo.attr('id') == "btw-energy" ) {
+						var lineL = thatInfo.select("line:first-child"),
+							lineR = thatInfo.select("line:nth-child(2)");
+						lineL.animate({ x2 : '540'}, 350, mina.ease);
+						lineR.animate({ x2 : '858'}, 350, mina.ease);
+						console.log(thatInfo);
+					}
+
 				}
 			}
 		});
