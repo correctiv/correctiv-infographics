@@ -83,7 +83,7 @@
 	.st77{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:5,5;}
 	.st78{fill:#FFFFFF;}
 	.st79{fill:none;}
-
+	.st80{fill:#A4CACF;}
 	.st81{font-size:18px;}
 
 	.st83{fill:#95C366;}
@@ -138,15 +138,13 @@
 	.st132{fill:#D8D8D8;}
 </style>
 <g id="bg">
-	<rect class="st0" width="1000" height="1170"/>
-	<g>
-		<path class="st1" d="M500,434C251.5,434,50,635.5,50,884c0,108.6,38.5,208.2,102.6,286h694.9C911.5,1092.2,950,992.6,950,884
-			C950,635.5,748.5,434,500,434z"/>
-	</g>
+	<path class="st1" d="M500,399C251.5,399,50,600.5,50,849c0,108.6,38.5,208.2,102.6,286h694.9C911.5,1057.2,950,957.6,950,849
+			C950,600.5,748.5,399,500,399z"/>
 </g>
 <g id="scale">
 	<g id="body">
 		<g>
+			<rect x="152.5" y="1080" class="st2" width="695" height="55"/>
 			<path class="st2" d="M795.5,1028h-591c-28.7,0-52,23.3-52,52l0,0h695l0,0C847.5,1051.3,824.2,1028,795.5,1028z"/>
 			<path class="st2" d="M634.4,1055l-12.2-43.4c-2.4-8.6-10.3-14.6-19.2-14.6H397.1c-9,0-16.8,6-19.2,14.6l-12.2,43.4H634.4z"/>
 			<rect x="256.6" y="938.5" class="st2" width="10" height="89.5"/>
@@ -9774,12 +9772,12 @@
 			</g>
 			<g id="txt_1_">
 				<rect x="12.3" y="637.2" class="st79" width="199.2" height="192.7"/>
-				<text transform="matrix(1 0 0 1 72.4641 650.886)"><tspan x="0" y="0" class="st78 st80 st81">Subventionen für </tspan><tspan x="-48.1" y="20" class="st78 st80 st81">Brennstoffe zur Strom- </tspan><tspan x="-42.9" y="40" class="st78 st80 st81">und Wärmeerzeugung, </tspan><tspan x="-38.8" y="60" class="st78 st80 st81">Preisvergünstigungen </tspan><tspan x="-42.1" y="80" class="st78 st80 st81">für Strom und anderes</tspan><tspan x="-12.9" y="100" class="st78 font-reg st81">(rund 18 Milliarden  </tspan><tspan x="95.9" y="120" class="st78 font-reg st81">Euro)</tspan></text>
-				<text transform="matrix(1 0 0 1 102.0505 518.2242)"><tspan x="0" y="0" class="st78 st80 st81">Dieselprivileg</tspan><tspan x="-52.4" y="20" class="st78 font-reg st81">(7,9 Milliarden Euro)</tspan></text>
-				<text transform="matrix(1 0 0 1 14.7575 409.738)"><tspan x="0" y="0" class="st78 st80 st81">Steuerbefreiung Kerosin</tspan><tspan x="34.9" y="20" class="st78 font-reg st81">(7,4 Milliarden Euro)</tspan></text>
-				<text transform="matrix(1 0 0 1 29.8483 318.8508)"><tspan x="0" y="0" class="st78 st80 st81">Entfernungspauschale</tspan><tspan x="19.8" y="20" class="st78 font-reg st81">(5,1 Milliarden Euro)</tspan></text>
-				<text transform="matrix(1 0 0 1 49.2458 239.9117)"><tspan x="0" y="0" class="st78 st80 st81">Steuerbefreiung für  </tspan><tspan x="0.5" y="19" class="st78 st80 st81">internationale Flüge</tspan><tspan x="0.4" y="38" class="st78 font-reg st81">(4,4 Milliarden Euro)</tspan></text>
-				<text transform="matrix(1 0 0 1 47.1804 195.8229)"><tspan x="0" y="0" class="st78 st80 st81">Dienstwagenprivileg</tspan><tspan x="2.5" y="19" class="st78 font-reg st81">(3,1 Milliarden Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 72.4641 650.886)"><tspan x="0" y="0" class="st78 st81">Subventionen für </tspan><tspan x="-48.1" y="20" class="st78 st81">Brennstoffe zur Strom- </tspan><tspan x="-42.9" y="40" class="st78 st81">und Wärmeerzeugung, </tspan><tspan x="-38.8" y="60" class="st78 st81">Preisvergünstigungen </tspan><tspan x="-42.1" y="80" class="st78 st81">für Strom und anderes</tspan><tspan x="-12.9" y="100" class="st78 font-reg st81">(rund 18 Milliarden  </tspan><tspan x="95.9" y="120" class="st78 font-reg st81">Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 102.0505 518.2242)"><tspan x="0" y="0" class="st78 st81">Dieselprivileg</tspan><tspan x="-52.4" y="20" class="st78 font-reg st81">(7,9 Milliarden Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 14.7575 409.738)"><tspan x="0" y="0" class="st78 st81">Steuerbefreiung Kerosin</tspan><tspan x="34.9" y="20" class="st78 font-reg st81">(7,4 Milliarden Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 29.8483 318.8508)"><tspan x="0" y="0" class="st78 st81">Entfernungspauschale</tspan><tspan x="19.8" y="20" class="st78 font-reg st81">(5,1 Milliarden Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 49.2458 239.9117)"><tspan x="0" y="0" class="st78 st81">Steuerbefreiung für  </tspan><tspan x="0.5" y="19" class="st78 st81">internationale Flüge</tspan><tspan x="0.4" y="38" class="st78 font-reg st81">(4,4 Milliarden Euro)</tspan></text>
+				<text transform="matrix(1 0 0 1 47.1804 195.8229)"><tspan x="0" y="0" class="st78 st81">Dienstwagenprivileg</tspan><tspan x="2.5" y="19" class="st78 font-reg st81">(3,1 Milliarden Euro)</tspan></text>
 			</g>
 		</g>
 	</g>
@@ -15043,27 +15041,26 @@
 		<path class="st3" d="M507.7,675.2c-0.1-0.2-0.2-0.3-0.3-0.5c0.5,3.6-1.4,7.2-4.8,8.8c-4.1,1.9-8.9,0.3-11-3.6
 			c0.1,0.8,0.3,1.7,0.7,2.5c2,4.3,7,6.1,11.3,4.1C507.8,684.6,509.7,679.5,507.7,675.2z"/>
 	</g>
-	<rect x="152.5" y="1080" class="st2" width="695" height="90"/>
 </g>
 <g id="txt">
-	<text transform="matrix(1 0 0 1 144.6875 56.6895)" class="st78 st80 st124">Milliarden für klimaschädliche Energien</text>
+	<text transform="matrix(1 0 0 1 144.6875 56.6895)" class="st78 st124">Milliarden für klimaschädliche Energien</text>
 	<g id="txt-left">
 		<line class="line-under st125" x1="261.6" y1="168.8" x2="261.6" y2="143.8"/>
 		<line class="st126" x1="187.6" y1="143.8" x2="335.6" y2="143.8"/>
-		<text transform="matrix(1 0 0 1 193.2903 109.8233)"><tspan x="0" y="0" class="st5 st80 st127">Subventionen </tspan><tspan x="-7.2" y="24" class="st5 st80 st127">Fossile Energie</tspan></text>
-		<text transform="matrix(1 0 0 1 334.3336 217.618)"><tspan x="0" y="0" class="st78 font-reg st128">insgesamt</tspan><tspan x="0" y="24" class="st78 st80 st128">46 Milliarden Euro</tspan><tspan x="0" y="48" class="st78 font-reg st128">jährlich</tspan></text>
+		<text transform="matrix(1 0 0 1 193.2903 109.8233)"><tspan x="0" y="0" class="st5 st127">Subventionen </tspan><tspan x="-7.2" y="24" class="st5 st127">Fossile Energie</tspan></text>
+		<text transform="matrix(1 0 0 1 334.3336 217.618)"><tspan x="0" y="0" class="st78 font-reg st128">insgesamt</tspan><tspan x="0" y="24" class="st78 st128">46 Milliarden Euro</tspan><tspan x="0" y="48" class="st78 font-reg st128">jährlich</tspan></text>
 	</g>
 	<g id="txt-right">
 		<line class="line-under st129" x1="738" y1="417" x2="738" y2="392"/>
 		<line class="st130" x1="647.5" y1="392" x2="828.5" y2="392"/>
-		<text transform="matrix(1 0 0 1 646.667 357.9653)"><tspan x="0" y="0" class="st83 st80 st127">EEG-Zahlungen an </tspan><tspan x="-0.6" y="24" class="st83 st80 st127">Ökostromerzeuger</tspan></text>
-		<text transform="matrix(1 0 0 1 571.0083 465.9649)"><tspan x="0" y="0" class="st78 font-reg st128">insgesamt</tspan><tspan x="-69" y="24" class="st78 st80 st128">22 Milliarden Euro</tspan><tspan x="28.2" y="48" class="st78 font-reg st128">jährlich</tspan></text>
+		<text transform="matrix(1 0 0 1 646.667 357.9653)"><tspan x="0" y="0" class="st83 st127">EEG-Zahlungen an </tspan><tspan x="-0.6" y="24" class="st83 st127">Ökostromerzeuger</tspan></text>
+		<text transform="matrix(1 0 0 1 571.0083 465.9649)"><tspan x="0" y="0" class="st78 font-reg st128">insgesamt</tspan><tspan x="-69" y="24" class="st78 st128">22 Milliarden Euro</tspan><tspan x="28.2" y="48" class="st78 font-reg st128">jährlich</tspan></text>
 	</g>
 
 	<rect x="177" y="1020.5" class="st79" width="646" height="111.5"/>
 	<text transform="matrix(1 0 0 1 467.3086 1034.2158)"><tspan x="0" y="0" class="st132 font-reg st81">Quellen: </tspan><tspan x="-274.4" y="21.6" class="st132 font-reg st81">Subventionen für fossile Energien in Deutschland, Studie des Forums Ökolo</tspan><tspan x="334.9" y="21.6" class="st132 font-reg st81">-</tspan><tspan x="-272.1" y="43.2" class="st132 font-reg st81">gisch-Soziale Marktwirtschaft e.V. im Auftrag von Greenpeace, Hamburg im </tspan><tspan x="-287.6" y="64.8" class="st132 font-reg st81">Juni 2017; EEG in Zahlen, Bundeswirtschaftsministerium, Oktober 2016; jeweils </tspan><tspan x="-268.3" y="86.4" class="st132 font-reg st81">nicht berücksichtigt wurden staatliche Forschungs- und Förderprogramme</tspan></text>
 
-	<text id="credits" transform="matrix(1 0 0 1 312.2892 1153.2764)" class="st4 font-reg st131">
+	<text id="credits" transform="matrix(1 0 0 1 312.2892 1157.2764)" class="st80 font-reg st131">
 		<a id="g1" href="https://correctiv.org/" target="_blank">Correctiv.org</a> | 
 		<a id="g1" href="http://www.klimaretter.info/" target="_blank"> Klimaretter.info</a> | Design: 
 		<a id="g1" href="http://www.kreataz.com/" target="_blank">kreataz</a>

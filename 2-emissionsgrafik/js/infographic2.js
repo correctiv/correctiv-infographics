@@ -66,7 +66,7 @@ Snap.load("infographic2.svg", function(f) {
 
 			iconBg.stop().animate({ r: 23.5 }, 1500, mina.elastic,
 			function() { 
-				var check = this.parent().parent().hasClass('check')
+				var check = this.parent().parent().hasClass('check');
 				iconProcessed++;
 
 				if (!check) { this.attr({ r: 21.5 }); }

@@ -23,10 +23,7 @@ Snap.load("infographic6.svg", function(f) {
 	var indicator = f.select("#indicator");
 	indicator.attr({ transform: 'r-23,500,678.8' });
 
-
-
-
-	// animation:
+	// animation loop:
 	function moveArms() {
 		arms.stop().animate({ transform: 'r1.5,500,900' }, 4000, mina.ease);
 		pileL.stop().animate({ transform: 't0,-7' }, 4000, mina.ease);

@@ -1,5 +1,48 @@
 /* General Styles */
+.st0{fill:#ECF7DF;}
 
+.st2{fill:#353535;}
+.st3{fill:none;stroke:#FC6269;stroke-miterlimit:10;}
+.st4{fill:url(#graph-bg_2_);}
+.st5{fill:#FC6269;}
+.st6{fill:#FFFFFF;}
+
+.st8{font-size:18px;}
+.st9{fill:none;stroke:#1B7A88;stroke-miterlimit:10;}
+.st10{fill:url(#graph-bg_3_);}
+.st11{fill:#1B7A88;}
+.st12{fill:none;stroke:#353535;stroke-miterlimit:10;}
+.st13{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
+.st14{fill:#FFFFFF;stroke:#353535;stroke-width:0.25;stroke-miterlimit:10;}
+
+.st16{fill:#666666;stroke:#FC6269;stroke-width:2;stroke-miterlimit:10;}
+.st17{fill:#FEC0C3;}
+.st18{opacity:0.5;fill:#FFFFFF;}
+.st19{font-size:40px;}
+.st20{fill:#E4F4F4;}
+.st21{font-size:16px;}
+.st22{opacity:0.5;fill:#4995A0;}
+.st23{fill:url(#grad-frame1);stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
+.st24{fill:none;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
+.st25{fill:none;stroke:#1B7A88;stroke-width:0.5;stroke-miterlimit:10;}
+.st26{fill:none;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4.619,2.3095;}
+.st27{fill:none;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:3.6333,1.8167;}
+.st28{fill:none;stroke:#7AB440;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+.st29{fill:none;stroke:#FC6269;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+.st30{fill:#7AB440;}
+.st31{fill:none;}
+.st32{fill:#464646;}
+.st33{fill:url(#grad-frame2);stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
+.st34{fill:none;stroke:#4995A0;stroke-width:45;stroke-miterlimit:10;}
+.st35{fill:url(#grad-frame3);stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
+.st36{fill:none;stroke:#4995A0;stroke-width:2;stroke-miterlimit:10;}
+.st37{fill:none;stroke:#4995A0;stroke-miterlimit:10;}
+.st38{fill:#4995A0;}
+.st39{fill:none;stroke:#1B7A88;stroke-width:22;stroke-miterlimit:10;}
+.st40{display:none;}
+.st41{display:inline;}
+.st42{fill:#A4CACF;}
+.st43{fill:#D4F2F4;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
 /*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
 
@@ -12,7 +55,7 @@ body {
 	font-style: normal;
 	font-size: 12px;
 }
-body .font-norm {
+body .font-reg {
 	font-weight: normal;
 }
 .awesome {
@@ -22,4 +65,50 @@ body .font-norm {
 }
 #graph-ref {
 	display: none;
+}
+[id^=fact-spot] {
+	cursor: pointer;
+}
+
+/* initialize Facts boxes */
+[id^=fact-txt] {
+	visibility: hidden;
+	opacity: 0;
+	transition: all .5s ease;
+}
+#fact-spot1.clicked ~ #fact-txt1 {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s .5s ease;
+}
+#fact-spot2.clicked ~ #fact-txt2 {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s .5s ease;
+}
+#fact-spot3.clicked ~ #fact-txt3 {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s .5s ease;
+}
+.bubble {
+	cursor: default;
+}
+
+[id$=-graph] .nbr {
+	visibility: hidden;
+	opacity: 0;
+	transition: all .25s ease;
+}
+[id$=-graph] .bubble.check .nbr {
+	visibility: visible;
+	opacity: 1;
+	transition: all .25s ease;
+}
+
+#credits a {
+	fill: #1B7A88;
+}
+#credits a:hover {
+	fill: #4995A0;
 }
