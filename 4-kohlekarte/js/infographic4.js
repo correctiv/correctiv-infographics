@@ -5,7 +5,7 @@ var s = Snap("#snappy");
 Snap.load("infographic4.svg", function(f) {
 
 	var mainGraph = f.select("#main-svg"); // "main-svg" will be appended
-	var whiteBoard = s.rect(354, 356, 90, 30, 2.5, 2.5); // "whiteBoard" will be appended
+	var whiteBoard = s.rect(708.5, 773.5, 195, 65, 2.5, 2.5); // "whiteBoard" will be appended
 	var infoBoards = f.select("#info-boards"); // "info-boards" will be appended
 	var txt = f.select("#txt"); // "txt" will be appended
 
@@ -70,7 +70,7 @@ Snap.load("infographic4.svg", function(f) {
 					year15Line.animate({ strokeDashoffset : 0 }, 250, mina.ease);
 				}, 250);
 
-				whiteBoard.animate({ height: 138 }, 500, mina.ease);
+				whiteBoard.animate({ height: 280 }, 500, mina.ease);
 
 			} else {
 				this.removeClass('selected');
@@ -105,7 +105,7 @@ Snap.load("infographic4.svg", function(f) {
 			if (($('[id^=kraftwerk].selected').length) == 0) {
 				setTimeout(function () {
 					whiteBoard.animate({
-						height: 30
+						height: 65
 					}, 500, mina.easein);
 				}, 250);
 			}
@@ -115,7 +115,7 @@ Snap.load("infographic4.svg", function(f) {
 		// Factories scale animations:
 		a.mouseover(function() {
 			this.animate({
-				transform: "s1.25, 1.25" 
+				transform: "s1.12, 1.12" 
 			}, 250, mina.ease);
 		}).mouseout(function() {
 			if (this.hasClass('selected') != 1) {
@@ -180,7 +180,7 @@ Snap.load("infographic4.svg", function(f) {
 		// Reset legende rectangle:
 		setTimeout(function () {
 			whiteBoard.animate({
-				height: 30
+				height: 65
 			}, 500, mina.easein);
 		}, 250);
 
@@ -203,10 +203,10 @@ Snap.load("infographic4.svg", function(f) {
 	// Infinite animation info-icon-2 circle:
 	function infoPulse(){
 		infoPop.stop().animate({ 
-			r: 11.5 
+			r: 23 
 		}, 1500, mina.elastic, function(){ 
 			infoPop.attr({ 
-				r: 10.25
+				r: 20.5
 			}); infoPulse(); // Repeat this animation so it appears infinite.
 		}, 200, mina.ease);
 	}

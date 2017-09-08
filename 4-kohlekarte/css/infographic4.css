@@ -1,35 +1,74 @@
 /* General Styles */
-.st0{fill:#A4CACF;}
-.st1{fill:#4995A0;stroke:#A4CACF;stroke-width:0.75;stroke-miterlimit:10;}
-.st2{fill:#f2f2f2;}
-.st3{font-size:6px;}
-.st4{font-size:8px;}
-.st5{fill:#353535;}
-.st6{fill:none;stroke:#464646;stroke-width:0.75;stroke-linecap:round;stroke-miterlimit:10;}
-.st7{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
-.st8{fill:none;stroke:#353535;stroke-miterlimit:10;}
-.st9{font-size:20px;}
-.st10{font-size:15px;}
-.st11{fill:#6C351C;}
-.st12{fill:#D8D8D8;}
-.st13{font-family:'FontAwesome';}
-.st14{font-size:6.4px;}
-.st15{fill:#1B7A88;}
-.st18{fill:#9D664D;}
-.st20{fill:#7D462D;}
-.st22{fill:none;stroke:#6C351C;stroke-width:2;stroke-miterlimit:10;}
-.st29{fill:none;stroke:#353535;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
-.st32{fill:#666666;}
-.st34{fill:#464646;}
-.st39{letter-spacing:-1;}
-.st40{fill:none;stroke:#9D664D;stroke-linecap:round;stroke-miterlimit:10;}
-.st41{fill:none;stroke:#6C351C;stroke-linecap:round;stroke-miterlimit:10;}
-.st42{fill:none;stroke:#7D462D;stroke-linecap:round;stroke-miterlimit:10;}
-.st43{fill:none;stroke:#353535;stroke-width:0.5;stroke-miterlimit:10;}
-.st44{fill:#FD8187;}
-.st45{fill:#FFFFFF;}
-.st46{font-size:6.5px;}
-.st47{opacity:0.75;fill:#FFFFFF;}
+.st0{fill:#BFDDDC;}
+.st1{fill:url(#SVGID_1_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+
+.st3{font-size:12px;}
+.st4{fill:url(#SVGID_2_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st5{font-size:16px;}
+.st6{fill:url(#SVGID_3_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st7{fill:url(#SVGID_4_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st8{fill:url(#SVGID_5_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st9{fill:url(#SVGID_6_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st10{fill:url(#SVGID_7_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st11{fill:url(#SVGID_8_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st12{fill:url(#SVGID_9_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st13{fill:url(#SVGID_10_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st14{fill:url(#SVGID_11_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st15{fill:url(#SVGID_12_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st16{fill:url(#_x3C_Tracé_x3E__3_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st17{fill:url(#_x3C_Tracé_x3E__4_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st18{fill:url(#SVGID_13_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st19{fill:url(#_x3C_Tracé_x3E__5_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st20{fill:url(#SVGID_14_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
+.st21{fill:#6C351C;}
+.st22{fill:#D8D8D8;}
+.st23{font-family:'FontAwesome';}
+.st24{font-size:18px;}
+.st25{font-size:16.2px;}
+.st26{fill:none;stroke:#6C351C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+.st27{opacity:0.5;fill:none;stroke:url(#grid-bg_1_);stroke-width:64;stroke-miterlimit:10;}
+.st28{fill:none;stroke:#FFFFFF;stroke-width:0.66;stroke-miterlimit:10;}
+.st29{fill:none;stroke:#FFFFFF;stroke-width:0.33;stroke-miterlimit:10;}
+.st30{fill:none;stroke:#9D664D;stroke-width:14;stroke-miterlimit:10;}
+.st31{fill:#9D664D;}
+.st32{fill:none;stroke:#7D462D;stroke-width:14;stroke-miterlimit:10;}
+.st33{fill:#7D462D;}
+.st34{fill:none;stroke:#6C351C;stroke-width:14;stroke-miterlimit:10;}
+.st35{fill:none;stroke:#6C351C;stroke-width:4;stroke-miterlimit:10;}
+
+.st42{fill:#353535;}
+.st43{fill:none;stroke:#353535;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+
+.st45{fill:none;stroke:#666666;stroke-width:14;stroke-miterlimit:10;}
+.st46{fill:#666666;}
+.st47{fill:none;stroke:#464646;stroke-width:14;stroke-miterlimit:10;}
+.st48{fill:#464646;}
+.st49{fill:none;stroke:#353535;stroke-width:14;stroke-miterlimit:10;}
+.st50{fill:none;stroke:#353535;stroke-width:4;stroke-miterlimit:10;}
+
+.st53{fill:#F2F2F2;}
+.st54{fill:none;stroke:#464646;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st55{fill:none;stroke:#353535;stroke-miterlimit:10;}
+.st56{letter-spacing:-2;}
+.st57{fill:none;stroke:#9D664D;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st58{fill:none;stroke:#7D462D;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st59{fill:none;stroke:#6C351C;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+.st60{fill:#FD8187;}
+.st61{fill:#FFFFFF;}
+.st62{opacity:0.75;fill:#FFFFFF;}
+.st63{font-size:40px;}
+.st64{font-size:25px;}
+.st65{font-size:30px;}
+.st66{fill:none;stroke:#353535;stroke-width:0.5;stroke-miterlimit:10;}
+.st67{font-size:10px;}
+.st68{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
+.st69{fill:#1B7A88;}
+
+.st71{fill:#4995A0;}
+.st72{display:none;}
+.st73{display:inline;}
+
+.st75{font-size:24px;}
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
 
@@ -39,6 +78,12 @@ body {
 	font-weight: bold;
 	font-style: normal;
 	font-size: 12px;
+}
+#credits a {
+	fill: #4995A0;
+}
+#credits a:hover {
+	fill: #1B7A88;
 }
 
 /* Text Styles */
@@ -118,7 +163,7 @@ body {
 }
 
 
-/* Line factories to Ghraphs */
+/* Line factories to Ghraphs 
 .line-a {
 	fill:none;
 	stroke: #6C351C;
@@ -128,13 +173,13 @@ body {
 }
 #select8 .line-a {
 	stroke:#353535;
-}
+}*/
 
 [id^=kraftwerk] ~ .line-b line {
 	visibility: hidden;
 	opacity: 0;
-	stroke-dasharray: 16;
-	stroke-dashoffset: 16;
+	stroke-dasharray: 32;
+	stroke-dashoffset: 32;
 }
 [id^=kraftwerk].selected ~ .line-b line {
 	visibility: visible;
@@ -151,17 +196,6 @@ body {
 	}
 }
 /* years graphs colors & more */
-[class^=year-] {
-	fill: none;
-	stroke-width:7;
-	stroke-miterlimit:10;
-}
-.year-2013 {stroke:#9D664D;}
-.year-2014 {stroke:#7D462D;}
-.year-2015 {stroke:#6C351C;}
-#select8 .year-2013 {stroke:#666666;}
-#select8 .year-2014 {stroke:#464646;}
-#select8 .year-2015 {stroke:#353535;}
 [id^=kraftwerk] ~ .graphs .year-bg {
 	visibility: hidden;
 	opacity: 0;
@@ -174,23 +208,13 @@ body {
 }
 
 /* grid behind the years graphs */
-[class^=grid] {
-	fill: none;
-	stroke: #FFFFFF;
-	stroke-miterlimit: 10;
-}
 .grid-a{ 
-	stroke-width: 0.66;
-	stroke-dasharray: 3;
+	stroke-width: 1;
+	stroke-dasharray: 6;
 }
 .grid-b{ 
-	stroke-width:0.33;
-	stroke-dasharray: 3;
-}
-.grid-bg {
-	opacity: 0.5;
-	stroke: url(#SVGID);
-	stroke-width: 32;
+	stroke-width:.5;
+	stroke-dasharray: 6;
 }
 
 /* appearing years above graphs */
@@ -227,7 +251,7 @@ body {
 #info-line-2 {
 	visibility: hidden;
 	opacity: 0;
-	transform: translate(25px, 0);
+	transform: translate(0, -10px);
 	transition: all .5s ease;
 }
 #info-icon-2:hover ~ #info-line-2 {
