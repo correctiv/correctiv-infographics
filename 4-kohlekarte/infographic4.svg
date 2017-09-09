@@ -3,7 +3,6 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1250" style="enable-background:new 0 0 1000 1250;" xml:space="preserve">
 
-<g id="main-svg">
 	<g id="background">
 		<g id="lands">
 			<g id="Saarland">
@@ -888,734 +887,728 @@
 		<polygon id="berlin" class="st0" points="698.4,491.2 700.4,497.3 706.8,497.3 701.6,501.1 703.6,507.1 698.4,503.4 693.3,507.1 
 			695.2,501.1 690.1,497.3 696.5,497.3 	"/>
 	</g>
+	
+	<g id="main-svg">
 
-
-
-	<g id="graphics">
-		<g id="select1">
-			<g id="kraftwerk1">
+<!-- INFO & LEGEND BOARDS -->
+		<g id="info-boards">
+			<g id="legend">
+				<path id="legend-frame" class="st53" d="M905,1115H710c-2.8,0-5-2.2-5-5V840c0-2.8,2.2-5,5-5h195c2.8,0,5,2.2,5,5v270
+					C910,1112.8,907.8,1115,905,1115z"/>
 				<g>
-					<path class="factory-path st21" d="M205.4,651.8v24.8h-59.7V660c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L205.4,651.8z"/>
+					<text transform="matrix(1 0 0 1 771.0844 858.3572)" class="st42 font-reg">Legende:</text>
+				<!--	<line class="st55" x1="842.5" y1="863" x2="772.5" y2="863"/> -->
+				</g>
+				<g>
+					<line class="st55" x1="839.2" y1="980" x2="775.8" y2="980"/>
+					<line class="st55" x1="839.2" y1="1063.4" x2="775.8" y2="1063.4"/>
+				</g>
+				<g>
 					<g>
-						<path class="st22" d="M163.7,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C164,663,163.9,663.1,163.7,663.1z"/>
-						<path class="st22" d="M182,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H182c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C182.4,663,182.2,663.1,182,663.1z"/>
-						<path class="st22" d="M200.4,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C200.7,663,200.6,663.1,200.4,663.1z"/>
-						<path class="st22" d="M163.7,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C164,669.1,163.9,669.3,163.7,669.3z"/>
-						<path class="st22" d="M182,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H182c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C182.4,669.1,182.2,669.3,182,669.3z"/>
-						<path class="st22" d="M200.4,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C200.7,669.1,200.6,669.3,200.4,669.3z"/>
+						<path class="st42" d="M738.2,1098.4h-16.2c-0.8,0-1.5-0.7-1.5-1.5V1079c0-0.8,0.7-1.5,1.5-1.5h16.2c0.8,0,1.5,0.7,1.5,1.5v17.9
+							C739.7,1097.8,739,1098.4,738.2,1098.4z"/>
+						<text transform="matrix(1 0 0 1 725.5453 1093.9578)" class="st22 st23"></text>
+					</g>
+					<text transform="matrix(1 0 0 1 743.6918 1093.9578)" class="st42 font-reg">Kraftwerksleistung</text>
+				</g>
+				<g>
+					<g>
+						<g>
+							<path class="st42" d="M764.5,1046.5h-15.3c-0.8,0-1.5-0.7-1.5-1.5v-16.9c0-0.8,0.7-1.5,1.5-1.5h15.3c0.8,0,1.5,0.7,1.5,1.5
+								v16.9C766,1045.8,765.3,1046.5,764.5,1046.5z"/>
+						</g>
+						<text transform="matrix(1 0 0 1 770.4614 1041.978)" class="st42 font-reg">Steinkohle </text>
+					</g>
+					<g>
+						<g>
+							<path class="st21" d="M764.5,1016.5h-15.3c-0.8,0-1.5-0.7-1.5-1.5v-16.9c0-0.8,0.7-1.5,1.5-1.5h15.3c0.8,0,1.5,0.7,1.5,1.5
+								v16.9C766,1015.8,765.3,1016.5,764.5,1016.5z"/>
+						</g>
+						<text transform="matrix(1 0 0 1 770.4614 1012.0073)" class="st21 font-reg">Braunkohle</text>
 					</g>
 				</g>
-				<g class="power">
-					<rect x="148.7" y="659" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 148.5205 672.123)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 4.414</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-top"><text transform="matrix(1 0 0 1 143.1108 600.9922)"><tspan x="0" y="0" class="st21 st24">Neurath</tspan><tspan x="13.3" y="18" class="st21 st24">RWE</tspan></text></g>
-			<path class="line-a st26" d="M175.5,583.6 175.5,550.7 206.1,520.5 206.1,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_1_" gradientUnits="userSpaceOnUse" x1="206.0764" y1="447.9409" x2="206.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="206.1" y1="447.9" x2="206.1" y2="167.9"/>
-					<line class="grid-a st28" x1="174.1" y1="207.9" x2="238.1" y2="207.9"/>
-					<line class="grid-b st29" x1="174.1" y1="247.9" x2="238.1" y2="247.9"/>
-					<line class="grid-a st28" x1="174.1" y1="287.9" x2="238.1" y2="287.9"/>
-					<line class="grid-b st29" x1="174.1" y1="327.9" x2="238.1" y2="327.9"/>
-					<line class="grid-a st28" x1="174.1" y1="367.9" x2="238.1" y2="367.9"/>
-					<line class="grid-b st29" x1="174.1" y1="407.9" x2="238.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M186.1,447.9v-266"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 157.9385 161.8345)" class="st31 st24">33,254</text>
-				</g>
-				<path class="year-2014 st32" d="M206.1,447.9V188.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 177.9385 168.3389)" class="st33 st24">32,441</text>
-				</g>
-				<path class="year-2015 st34" d="M226.1,447.9V197.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 197.374 177.2979)" class="st21 st24">31,321</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="206.1" y1="447.9" x2="174.1" y2="447.9"/>
-				<line class="st35" x1="206.1" y1="447.9" x2="238.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select2">
-			<g id="kraftwerk2">
 				<g>
-					<path class="factory-path st21" d="M275.4,681v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L275.4,681z"/>
 					<g>
-						<path class="st22" d="M233.7,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C234,692.2,233.8,692.4,233.7,692.4z"/>
-						<path class="st22" d="M252,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H252c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C252.3,692.2,252.2,692.4,252,692.4z"/>
-						<path class="st22" d="M270.4,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C270.7,692.2,270.5,692.4,270.4,692.4z"/>
-						<path class="st22" d="M233.7,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C234,698.3,233.8,698.5,233.7,698.5z"/>
-						<path class="st22" d="M252,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H252c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C252.3,698.3,252.2,698.5,252,698.5z"/>
-						<path class="st22" d="M270.4,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C270.7,698.3,270.5,698.5,270.4,698.5z"/>
+						<line id="year-2013_8_" class="st30" x1="787.5" y1="956.6" x2="787.5" y2="918.5"/>
+						<line id="year-2014_8_" class="st32" x1="807.5" y1="956.6" x2="807.5" y2="918.5"/>
+						<line id="year-2015_8_" class="st34" x1="827.5" y1="956.6" x2="827.5" y2="918.5"/>
+						<line class="st35" x1="775.5" y1="956.7" x2="839.5" y2="956.7"/>
+					</g>
+					<g>
+						<text transform="matrix(1 0 0 1 737.7004 894.8572)"><tspan x="0" y="0" class="st31 st25">2013</tspan></text>
+						<polyline class="st57" points="787.5,913.7 773.3,898.5 739.1,898.5 				"/>
+					</g>
+					<g>
+						<text transform="matrix(1 0 0 1 788.5999 894.8572)"><tspan x="0" y="0" class="st33 st25">2014</tspan></text>
+						<line class="st58" x1="807.5" y1="913.4" x2="807.5" y2="898.5"/>
+						<line class="st58" x1="788.8" y1="898.5" x2="826.2" y2="898.5"/>
+					</g>
+					<g>
+						<text transform="matrix(1 0 0 1 839.5002 894.8582)"><tspan x="0" y="0" class="st21 st25">2015</tspan></text>
+						<polyline class="st59" points="827.5,913.7 841.7,898.5 875.9,898.5 				"/>
 					</g>
 				</g>
-				<g class="power">
-					<rect x="218.6" y="688.2" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 218.499 701.3418)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 3.669</tspan></text>
-				</g>
 			</g>
-			<g class="factory-name-right"><text transform="matrix(1 0 0 1 284.0234 689.5615)"><tspan x="0" y="0" class="st21 st24">Niederaußem</tspan><tspan x="0" y="18" class="st21 st24">RWE</tspan></text></g>
-			<path class="line-a st26" d="M278.6,664 374.2,568.4 374.2,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_2_" gradientUnits="userSpaceOnUse" x1="374.0764" y1="447.9409" x2="374.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="374.1" y1="447.9" x2="374.1" y2="167.9"/>
-					<line class="grid-a st28" x1="342.1" y1="207.9" x2="406.1" y2="207.9"/>
-					<line class="grid-b st29" x1="342.1" y1="247.9" x2="406.1" y2="247.9"/>
-					<line class="grid-a st28" x1="342.1" y1="287.9" x2="406.1" y2="287.9"/>
-					<line class="grid-b st29" x1="342.1" y1="327.9" x2="406.1" y2="327.9"/>
-					<line class="grid-a st28" x1="342.1" y1="367.9" x2="406.1" y2="367.9"/>
-					<line class="grid-b st29" x1="342.1" y1="407.9" x2="406.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M354.1,447.9V212.1"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 325.9375 192.0742)" class="st31 st24">29,474</text>
-				</g>
-				<path class="year-2014 st32" d="M374.1,447.9v-218"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 345.9375 209.8823)" class="st33 st24">27,248</text>
-				</g>
-				<path class="year-2015 st34" d="M394.1,447.9V229.2"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 365.9375 209.2261)" class="st21 st24">27,330</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="374.1" y1="447.9" x2="342.1" y2="447.9"/>
-				<line class="st35" x1="374.1" y1="447.9" x2="406.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select3">
-			<g id="kraftwerk3">
-				<g>
-					<path class="factory-path st21" d="M804.4,553.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L804.4,553.1z"/>
-					<g>
-						<path class="st22" d="M762.6,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C763,564.3,762.8,564.4,762.6,564.4z"/>
-						<path class="st22" d="M781,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H781c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C781.3,564.3,781.2,564.4,781,564.4z"/>
-						<path class="st22" d="M799.3,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C799.7,564.3,799.5,564.4,799.3,564.4z"/>
-						<path class="st22" d="M762.6,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C763,570.4,762.8,570.5,762.6,570.5z"/>
-						<path class="st22" d="M781,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H781c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C781.3,570.4,781.2,570.5,781,570.5z"/>
-						<path class="st22" d="M799.3,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C799.7,570.4,799.5,570.5,799.3,570.5z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="744.6" y="561.1" class="st21" width="59.7" height="16.8"/>
-					<rect x="747.6" y="560.2" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 747.4912 573.3711)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 3.000</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-top"><text transform="matrix(1 0 0 1 721.2383 502.1348)"><tspan x="0" y="0" class="st21 st24">Jänschwalde</tspan><tspan x="33.6" y="18" class="st21 st24">Leag</tspan></text></g>
-			<path class="line-a st26" d="M774.7,481.9 793,463.7 793,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_3_" gradientUnits="userSpaceOnUse" x1="794.0764" y1="447.9409" x2="794.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="794.1" y1="447.9" x2="794.1" y2="167.9"/>
-					<line class="grid-a st28" x1="762.1" y1="207.9" x2="826.1" y2="207.9"/>
-					<line class="grid-b st29" x1="762.1" y1="247.9" x2="826.1" y2="247.9"/>
-					<line class="grid-a st28" x1="762.1" y1="287.9" x2="826.1" y2="287.9"/>
-					<line class="grid-b st29" x1="762.1" y1="327.9" x2="826.1" y2="327.9"/>
-					<line class="grid-a st28" x1="762.1" y1="367.9" x2="826.1" y2="367.9"/>
-					<line class="grid-b st29" x1="762.1" y1="407.9" x2="826.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M774.1,447.9V244.7"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 745.9375 224.7061)" class="st31 st24">25,395</text>
-				</g>
-				<path class="year-2014 st32" d="M794.1,447.9V254.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 765.9375 234.2983)" class="st33 st24">24,196</text>
-				</g>
-				<path class="year-2015 st34" d="M814.1,447.9V261.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 785.9375 241.2661)" class="st21 st24">23,325</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="794.1" y1="447.9" x2="762.1" y2="447.9"/>
-				<line class="st35" x1="794.1" y1="447.9" x2="826.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select4">
-			<g id="kraftwerk4">
-				<g>
-					<path class="factory-path st21" d="M840.4,613v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L840.4,613z"/>
-					<g>
-						<path class="st22" d="M798.6,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C799,624.2,798.8,624.3,798.6,624.3z"/>
-						<path class="st22" d="M817,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H817c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C817.3,624.2,817.2,624.3,817,624.3z"/>
-						<path class="st22" d="M835.3,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C835.7,624.2,835.5,624.3,835.3,624.3z"/>
-						<path class="st22" d="M798.6,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C799,630.3,798.8,630.5,798.6,630.5z"/>
-						<path class="st22" d="M817,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H817c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C817.3,630.3,817.2,630.5,817,630.5z"/>
-						<path class="st22" d="M835.3,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C835.7,630.3,835.5,630.5,835.3,630.5z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="783.6" y="620.2" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 783.4912 633.3086)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.575</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-right"><text transform="matrix(1 0 0 1 848.9922 621.5625)"><tspan x="0" y="0" class="st21 st24">Boxberg</tspan><tspan x="0" y="18" class="st21 st24">Leag</tspan></text></g>
-			<path class="line-a st26" d="M841.1,597.5 878.3,560.4 878.3,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_4_" gradientUnits="userSpaceOnUse" x1="878.0764" y1="447.9409" x2="878.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="878.1" y1="447.9" x2="878.1" y2="167.9"/>
-					<line class="grid-a st28" x1="846.1" y1="207.9" x2="910.1" y2="207.9"/>
-					<line class="grid-b st29" x1="846.1" y1="247.9" x2="910.1" y2="247.9"/>
-					<line class="grid-a st28" x1="846.1" y1="287.9" x2="910.1" y2="287.9"/>
-					<line class="grid-b st29" x1="846.1" y1="327.9" x2="910.1" y2="327.9"/>
-					<line class="grid-a st28" x1="846.1" y1="367.9" x2="910.1" y2="367.9"/>
-					<line class="grid-b st29" x1="846.1" y1="407.9" x2="910.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M858.1,447.9V294.7"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 829.9375 274.6504)" class="st31 st24">19,152</text>
-				</g>
-				<path class="year-2014 st32" d="M878.1,447.9V298.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 849.9375 278.2744)" class="st33 st24">18,699</text>
-				</g>
-				<path class="year-2015 st34" d="M898.1,447.9V292.4"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 869.9375 272.3701)" class="st21 st24">19,437</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="878.1" y1="447.9" x2="846.1" y2="447.9"/>
-				<line class="st35" x1="878.1" y1="447.9" x2="910.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select5">
-			<g id="kraftwerk5">
-				<g>
-					<path class="factory-path st21" d="M208.4,711.8v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L208.4,711.8z"/>
-					<g>
-						<path class="st22" d="M166.7,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C167,722.9,166.9,723.1,166.7,723.1z"/>
-						<path class="st22" d="M185,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H185c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C185.4,722.9,185.2,723.1,185,723.1z"/>
-						<path class="st22" d="M203.4,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C203.7,722.9,203.6,723.1,203.4,723.1z"/>
-						<path class="st22" d="M166.7,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C167,729.1,166.9,729.2,166.7,729.2z"/>
-						<path class="st22" d="M185,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H185c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C185.4,729.1,185.2,729.2,185,729.2z"/>
-						<path class="st22" d="M203.4,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C203.7,729.1,203.6,729.2,203.4,729.2z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="151.7" y="718.9" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 151.5205 732.0605)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.596</tspan></text>
-				</g>
-			</g>
-			<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 134.5117 757.2285)"><tspan x="0" y="0" class="st21 st24">Weisweiler</tspan><tspan x="24.8" y="18" class="st21 st24">RWE</tspan></text></g>
-			<path class="line-a st26" d="M142.8,703.2l-20.7-20.7V447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_5_" gradientUnits="userSpaceOnUse" x1="122.0764" y1="447.9409" x2="122.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="122.1" y1="447.9" x2="122.1" y2="167.9"/>
-					<line class="grid-a st28" x1="90.1" y1="207.9" x2="154.1" y2="207.9"/>
-					<line class="grid-b st29" x1="90.1" y1="247.9" x2="154.1" y2="247.9"/>
-					<line class="grid-a st28" x1="90.1" y1="287.9" x2="154.1" y2="287.9"/>
-					<line class="grid-b st29" x1="90.1" y1="327.9" x2="154.1" y2="327.9"/>
-					<line class="grid-a st28" x1="90.1" y1="367.9" x2="154.1" y2="367.9"/>
-					<line class="grid-b st29" x1="90.1" y1="407.9" x2="154.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M102.1,447.9V298.6"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 73.938 278.5786)" class="st31 st24">18,661</text>
-				</g>
-				<path class="year-2014 st32" d="M122.1,447.9V313"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 93.9385 293.0347)" class="st33 st24">16,854</text>
-				</g>
-				<path class="year-2015 st34" d="M142.1,447.9V302.8"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 113.9385 282.7549)" class="st21 st24">18,139</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="122.1" y1="447.9" x2="90.1" y2="447.9"/>
-				<line class="st35" x1="122.1" y1="447.9" x2="154.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select6">
-			<g id="kraftwerk6">
-				<g>
-					<path class="factory-path st21" d="M768.6,621.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L768.6,621.1z"/>
-					<g>
-						<path class="st22" d="M726.9,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-						C727.2,632.2,727.1,632.4,726.9,632.4z"/>
-						<path class="st22" d="M745.3,632.4H732c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C745.6,632.2,745.5,632.4,745.3,632.4z"/>
-						<path class="st22" d="M763.6,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C763.9,632.2,763.8,632.4,763.6,632.4z"/>
-						<path class="st22" d="M726.9,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C727.2,638.4,727.1,638.5,726.9,638.5z"/>
-						<path class="st22" d="M745.3,638.5H732c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C745.6,638.4,745.5,638.5,745.3,638.5z"/>
-						<path class="st22" d="M763.6,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C763.9,638.4,763.8,638.5,763.6,638.5z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="711.9" y="628.2" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 711.7637 641.3555)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 1.600</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-bottom"><text transform="matrix(1 0 0 1 699.3613 666.4824)"><tspan x="0" y="0" class="st21 st24">Schwarze</tspan><tspan x="10.8" y="18" class="st21 st24">Pumpe</tspan><tspan x="19.9" y="36" class="st21 st24">Leag</tspan></text></g>
-			<path class="line-a st26" d="M718,590.5l-8-8V447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_6_" gradientUnits="userSpaceOnUse" x1="710.0764" y1="447.9409" x2="710.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="710.1" y1="447.9" x2="710.1" y2="167.9"/>
-					<line class="grid-a st28" x1="678.1" y1="207.9" x2="742.1" y2="207.9"/>
-					<line class="grid-b st29" x1="678.1" y1="247.9" x2="742.1" y2="247.9"/>
-					<line class="grid-a st28" x1="678.1" y1="287.9" x2="742.1" y2="287.9"/>
-					<line class="grid-b st29" x1="678.1" y1="327.9" x2="742.1" y2="327.9"/>
-					<line class="grid-a st28" x1="678.1" y1="367.9" x2="742.1" y2="367.9"/>
-					<line class="grid-b st29" x1="678.1" y1="407.9" x2="742.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M690.1,447.9v-90.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 661.9375 337.6016)" class="st31 st24">11,283</text>
-				</g>
-				<path class="year-2014 st32" d="M710.1,447.9v-92.7"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 681.9375 335.2109)" class="st33 st24">11,582</text>
-				</g>
-				<path class="year-2015 st34" d="M730.1,447.9v-98"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 701.9375 329.9141)" class="st21 st24">12,244</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="710.1" y1="447.9" x2="678.1" y2="447.9"/>
-				<line class="st35" x1="710.1" y1="447.9" x2="742.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select7">
-			<g id="kraftwerk7">
-				<g>
-					<path class="factory-path st21" d="M674.4,648.3v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3V653h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L674.4,648.3z"/>
-					<g>
-						<path class="st22" d="M632.7,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C633,659.5,632.9,659.7,632.7,659.7z"/>
-						<path class="st22" d="M651.1,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C651.4,659.5,651.2,659.7,651.1,659.7z"/>
-						<path class="st22" d="M669.4,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C669.7,659.5,669.6,659.7,669.4,659.7z"/>
-						<path class="st22" d="M632.7,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C633,665.6,632.9,665.8,632.7,665.8z"/>
-						<path class="st22" d="M651.1,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C651.4,665.6,651.2,665.8,651.1,665.8z"/>
-						<path class="st22" d="M669.4,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C669.7,665.6,669.6,665.8,669.4,665.8z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="617.7" y="655.5" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 617.5527 668.6309)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 1.840</tspan></text>
-				</g>
-			</g>
-			<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 600.2334 693.5127)"><tspan x="0" y="0" class="st21 st24">Lippendorf</tspan><tspan x="-3.4" y="18" class="st21 st24">Leag/EnBW</tspan></text></g>
-			<path class="line-a st26" d="M652,621.7v-67.2l-26-28v-78.7"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_7_" gradientUnits="userSpaceOnUse" x1="626.0764" y1="447.9409" x2="626.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="626.1" y1="447.9" x2="626.1" y2="167.9"/>
-					<line class="grid-a st28" x1="594.1" y1="207.9" x2="658.1" y2="207.9"/>
-					<line class="grid-b st29" x1="594.1" y1="247.9" x2="658.1" y2="247.9"/>
-					<line class="grid-a st28" x1="594.1" y1="287.9" x2="658.1" y2="287.9"/>
-					<line class="grid-b st29" x1="594.1" y1="327.9" x2="658.1" y2="327.9"/>
-					<line class="grid-a st28" x1="594.1" y1="367.9" x2="658.1" y2="367.9"/>
-					<line class="grid-b st29" x1="594.1" y1="407.9" x2="658.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" x1="606.1" d="M606.1,447.9V354"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 577.9375 334.043)" class="st31 st24">11,728</text>
-				</g>
-				<path class="year-2014 st32" x1="626.1" d="M626.1,447.9v-95.2"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 597.9375 332.6348)" class="st33 st24">11,904</text>
-				</g>
-				<path class="year-2015 st34" x1="646.1" d="M646.1,447.9v-82.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 617.9375 345.5225)" class="st21 st24">10,293</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="626.1" y1="447.9" x2="594.1" y2="447.9"/>
-				<line class="st35" x1="626.1" y1="447.9" x2="658.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select8">
-			<g id="kraftwerk8">
-				<g>
-					<path class="factory-path st42" d="M372.4,860.9v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8V862c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L372.4,860.9z"/>
-					<g>
-						<path class="st22" d="M330.7,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C331,872.1,330.9,872.2,330.7,872.2z"/>
-						<path class="st22" d="M349,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H349c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C349.4,872.1,349.2,872.2,349,872.2z"/>
-						<path class="st22" d="M367.4,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C367.7,872.1,367.6,872.2,367.4,872.2z"/>
-						<path class="st22" d="M330.7,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C331,878.2,330.9,878.3,330.7,878.3z"/>
-						<path class="st22" d="M349,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H349c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C349.4,878.2,349.2,878.3,349,878.3z"/>
-						<path class="st22" d="M367.4,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C367.7,878.2,367.6,878.3,367.4,878.3z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="315.7" y="868.1" class="st42" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 315.542 881.1943)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.146</tspan></text>
-				</g>
-			</g>
-			<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 304.3086 906.3193)"><tspan x="0" y="0" class="st42 st5">Mannheim</tspan><tspan x="20.5" y="16" class="st42 st5">GKW</tspan></text></g>
-			<path class="line-a st43" d="M350.4,834.3 459.1,725.6 459.1,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_8_" gradientUnits="userSpaceOnUse" x1="458.0764" y1="447.9409" x2="458.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="458.1" y1="447.9" x2="458.1" y2="167.9"/>
-					<line class="grid-a st28" x1="426.1" y1="207.9" x2="490.1" y2="207.9"/>
-					<line class="grid-b st29" x1="426.1" y1="247.9" x2="490.1" y2="247.9"/>
-					<line class="grid-a st28" x1="426.1" y1="287.9" x2="490.1" y2="287.9"/>
-					<line class="grid-b st29" x1="426.1" y1="327.9" x2="490.1" y2="327.9"/>
-					<line class="grid-a st28" x1="426.1" y1="367.9" x2="490.1" y2="367.9"/>
-					<line class="grid-b st29" x1="426.1" y1="407.9" x2="490.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st45" d="M438.1,447.9v-54"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 415.1016 373.8662)" class="st46 st24">6,750</text>
-				</g>
-				<path class="year-2014 st47" d="M458.1,447.9v-49.5"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 435.1016 378.3867)" class="st48 st24">6,185</text>
-				</g>
-				<path class="year-2015 st49" d="M478.1,447.9v-58.5"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 455.1016 369.3379)" class="st42 st24">7,316</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st50" x1="458.1" y1="447.9" x2="426.1" y2="447.9"/>
-				<line class="st50" x1="458.1" y1="447.9" x2="490.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select9">
-			<g id="kraftwerk9">
-				<g>
-					<path class="factory-path st21" d="M611.4,623.1V648h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L611.4,623.1z"/>
-					<g>
-						<path class="st22" d="M569.7,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C570.1,634.3,569.9,634.4,569.7,634.4z"/>
-						<path class="st22" d="M588.1,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C588.4,634.3,588.3,634.4,588.1,634.4z"/>
-						<path class="st22" d="M606.4,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C606.8,634.3,606.6,634.4,606.4,634.4z"/>
-						<path class="st22" d="M569.7,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C570.1,640.4,569.9,640.6,569.7,640.6z"/>
-						<path class="st22" d="M588.1,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C588.4,640.4,588.3,640.6,588.1,640.6z"/>
-						<path class="st22" d="M606.4,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C606.8,640.4,606.6,640.6,606.4,640.6z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="554.7" y="630.3" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 561.5781 643.4121)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 900</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-top"><text transform="matrix(1 0 0 1 497.6152 572.3359)"><tspan x="0" y="0" class="st21 st24">Schkopau -Uniper     </tspan><tspan x="28.8" y="18" class="st21 st24">Saale Energie</tspan></text></g>
-			<path class="line-a st26" d="M581.5,555l-39.5-41.5v-65.7"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_9_" gradientUnits="userSpaceOnUse" x1="542.0764" y1="447.9409" x2="542.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="542.1" y1="447.9" x2="542.1" y2="167.9"/>
-					<line class="grid-a st28" x1="510.1" y1="207.9" x2="574.1" y2="207.9"/>
-					<line class="grid-b st29" x1="510.1" y1="247.9" x2="574.1" y2="247.9"/>
-					<line class="grid-a st28" x1="510.1" y1="287.9" x2="574.1" y2="287.9"/>
-					<line class="grid-b st29" x1="510.1" y1="327.9" x2="574.1" y2="327.9"/>
-					<line class="grid-a st28" x1="510.1" y1="367.9" x2="574.1" y2="367.9"/>
-					<line class="grid-b st29" x1="510.1" y1="407.9" x2="574.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M522.1,447.9v-45.3"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 499.1777 382.5293)" class="st31 st24">5,667</text>
-				</g>
-				<path class="year-2014 st32" d="M542.1,447.9v-44.2"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 519.1777 384.0176)" class="st33 st24">5,530</text>
-				</g>
-				<path class="year-2015 st34" d="M562.1,447.9v-42.8"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 539.1016 385.0586)" class="st21 st24">5,351</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="542.1" y1="447.9" x2="510.1" y2="447.9"/>
-				<line class="st35" x1="542.1" y1="447.9" x2="574.1" y2="447.9"/>
-			</g>
-		</g>
-		<g id="select10">
-			<g id="kraftwerk10">
-				<g>
-					<path class="factory-path st21" d="M274.4,621.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
-					h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
-					c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L274.4,621.1z"/>
-					<g>
-						<path class="st22" d="M232.7,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C233,632.3,232.8,632.4,232.7,632.4z"/>
-						<path class="st22" d="M251,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H251c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C251.3,632.3,251.2,632.4,251,632.4z"/>
-						<path class="st22" d="M269.4,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C269.7,632.3,269.5,632.4,269.4,632.4z"/>
-						<path class="st22" d="M232.7,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C233,638.4,232.8,638.5,232.7,638.5z"/>
-						<path class="st22" d="M251,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H251c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C251.3,638.4,251.2,638.5,251,638.5z"/>
-						<path class="st22" d="M269.4,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
-							C269.7,638.4,269.5,638.5,269.4,638.5z"/>
-					</g>
-				</g>
-				<g class="power">
-					<rect x="217.6" y="628.3" class="st21" width="53.7" height="15.1"/>
-					<text transform="matrix(1 0 0 1 224.5034 641.4043)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 635</tspan></text>
-				</g>
-			</g>
-			<g class="factory-name-top"><text transform="matrix(1 0 0 1 188.8774 570.2559)"><tspan x="0" y="0" class="st21 st24">Frimmersdorf</tspan><tspan x="36.3" y="18" class="st21 st24">RWE</tspan></text></g>
-			<path class="line-a st26" d="M244.5,553.1 290,507.7 290,447.9"/>
-			<g class="graphs">
-				<g class="year-bg">
-					<linearGradient id="grid-bg_10_" gradientUnits="userSpaceOnUse" x1="290.0764" y1="447.9409" x2="290.0764" y2="167.9409">
-						<stop  offset="0.8" style="stop-color:#FFFFFF"/>
-						<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-					</linearGradient>
-					<line class="grid-bg st27" x1="290.1" y1="447.9" x2="290.1" y2="167.9"/>
-					<line class="grid-a st28" x1="258.1" y1="207.9" x2="322.1" y2="207.9"/>
-					<line class="grid-b st29" x1="258.1" y1="247.9" x2="322.1" y2="247.9"/>
-					<line class="grid-a st28" x1="258.1" y1="287.9" x2="322.1" y2="287.9"/>
-					<line class="grid-b st29" x1="258.1" y1="327.9" x2="322.1" y2="327.9"/>
-					<line class="grid-a st28" x1="258.1" y1="367.9" x2="322.1" y2="367.9"/>
-					<line class="grid-b st29" x1="258.1" y1="407.9" x2="322.1" y2="407.9"/>
-				</g>
-				<path class="year-2013 st30" d="M270.1,447.9v-34.1"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 247.1016 393.7949)" class="st31 st24">4,259</text>
-				</g>
-				<path class="year-2014 st32" d="M290.1,447.9v-35.6"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 267.1016 392.29)" class="st33 st24">4,447</text>
-				</g>
-				<path class="year-2015 st34" d="M310.1,447.9v-38"/>
-				<g class="nbr">
-					<text transform="matrix(1 0 0 1 287.1016 389.8496)" class="st21 st24">4,752</text>
-				</g>
-			</g>
-			<g class="line-b">
-				<line class="st35" x1="290.1" y1="447.9" x2="258.1" y2="447.9"/>
-				<line class="st35" x1="290.1" y1="447.9" x2="322.1" y2="447.9"/>
-			</g>
-		</g>
-	</g>
-	<g id="title">
-	<text transform="matrix(1 0 0 1 315.1719 51.3994)"><tspan x="0" y="0" class="st42 st63">CO</tspan><tspan x="52.9" y="0" class="st42 st64">2</tspan><tspan x="67.2" y="0" class="st42 st63">-Emissionen der  </tspan><tspan x="-66.8" y="42" class="st42 st63">10 größten Kohlekraftwerke</tspan><tspan x="55.9" y="78" class="st42 st65">(2013, 2014, 2015)</tspan></text>
-	<g id="txt-co2">
-	</g>
-	<text transform="matrix(1 0 0 1 66.8838 1169)"><tspan x="0" y="0" class="st69 font-reg st24">Quelle:  Emissionshandelspflichtige stationäre Anlagen und Luftverkehr in Deutschland (VET-Bericht 2016), </tspan><tspan x="112.2" y="21.6" class="st69 font-reg st24"> Herausgeber: Deutsche Emissionshandelsstelle (DEHSt) im Umweltbundesamt</tspan></text>
-
-	<text id="credits" transform="matrix(1 0 0 1 312.2892 1228.2764)" class="st71 font-reg st5">
-			<a id="g1" href="https://correctiv.org/" target="_blank">Correctiv.org</a> | 
-			<a id="g1" href="http://www.klimaretter.info/" target="_blank"> Klimaretter.info</a> | Design: 
-			<a id="g1" href="http://www.kreataz.com/" target="_blank">kreataz</a></text>
-</g>
-<!-- End "main-svg" -->
-
-
-
-<g id="info-boards">
-	<g id="info">
-		<g id="legende">
 			<g id="reset">
-				<rect x="881.3" y="780.5" class="st53" width="15" height="15"/>
-				<line class="st54" x1="882.1" y1="781.4" x2="895.4" y2="794.7"/>
-				<line class="st54" x1="882.1" y1="794.7" x2="895.4" y2="781.4"/>
+				<rect x="915" y="770" class="st0" width="25" height="25"/>
+				<line class="st70" x1="917.4" y1="772.4" x2="937.6" y2="792.6"/>
+				<line class="st70" x1="917.4" y1="792.6" x2="937.6" y2="772.4"/>
 			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 769.5878 800.8398)" class="st42 st24">Legende:</text>
-				<line class="st55" x1="841" y1="805.5" x2="771" y2="805.5"/>
-				<line class="st55" x1="837.7" y1="919.5" x2="774.3" y2="919.5"/>
-				<line class="st55" x1="837.7" y1="1001.9" x2="774.3" y2="1001.9"/>
-			</g>
-			<g>
-				<g>
-					<path class="st42" d="M736.7,1035.9h-16.2c-0.8,0-1.5-0.7-1.5-1.5v-17.9c0-0.8,0.7-1.5,1.5-1.5h16.2c0.8,0,1.5,0.7,1.5,1.5
-						v17.9C738.2,1035.2,737.5,1035.9,736.7,1035.9z"/>
-					<text transform="matrix(1 0 0 1 724.0488 1031.4404)" class="st22 st23 st24"></text>
+			<g id="info">
+				<path id="info-frame" class="st53" d="M905,825H710c-2.8,0-5-2.2-5-5v-45c0-2.8,2.2-5,5-5h195c2.8,0,5,2.2,5,5v45
+					C910,822.8,907.8,825,905,825z"/>
+				<g id="infotext-1" class="show">
+					<text transform="matrix(1 0 0 1 770 791.8098)"><tspan x="0" y="0" class="st69 font-reg">Klicken Sie auf</tspan><tspan x="1.4" y="21.6" class="st69 font-reg">die Kraftwerke</tspan></text>
 				</g>
-				<text transform="matrix(1 0 0 1 742.1953 1031.4404)" class="st42 st24">Kraftwerksleistung</text>
+				<g id="infotext-2">
+					<text transform="matrix(1 0 0 1 760.736 791.8098)"><tspan x="0" y="0" class="st69 font-reg">Bewege die Maus </tspan><tspan x="2.5" y="21.6" class="st69 font-reg">über die Grafiken</tspan></text>
+				</g>
+				<g id="info-icon">
+					<circle class="st2" cx="732.5" cy="797.5" r="21"/>
+					<path id="icon" class="st69" d="M732.5,777.5c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S743.5,777.5,732.5,777.5z M734.8,808.7
+						h-4.6v-16.9h4.6V808.7z M734.8,787.7h-4.6v-3.4h4.6V787.7z"/>
+				</g>
 			</g>
-			<g>
-				<g>
+		</g>
+<!--	-->
+		<g id="graphics">
+			<g id="select1">
+				<g id="kraftwerk1">
 					<g>
-						<path class="st42" d="M763,985.4h-15.3c-0.8,0-1.5-0.7-1.5-1.5V967c0-0.8,0.7-1.5,1.5-1.5H763c0.8,0,1.5,0.7,1.5,1.5v16.9
-							C764.5,984.8,763.8,985.4,763,985.4z"/>
+						<path class="factory-path st21" d="M205.4,651.8v24.8h-59.7V660c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L205.4,651.8z"/>
+						<g>
+							<path class="st22" d="M163.7,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C164,663,163.9,663.1,163.7,663.1z"/>
+							<path class="st22" d="M182,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H182c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C182.4,663,182.2,663.1,182,663.1z"/>
+							<path class="st22" d="M200.4,663.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C200.7,663,200.6,663.1,200.4,663.1z"/>
+							<path class="st22" d="M163.7,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C164,669.1,163.9,669.3,163.7,669.3z"/>
+							<path class="st22" d="M182,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H182c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C182.4,669.1,182.2,669.3,182,669.3z"/>
+							<path class="st22" d="M200.4,669.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C200.7,669.1,200.6,669.3,200.4,669.3z"/>
+						</g>
 					</g>
-					<text transform="matrix(1 0 0 1 768.9648 980.9609)" class="st42 st24">Steinkohle </text>
+					<g class="power">
+						<rect x="148.7" y="659" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 148.5205 672.123)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 4.414</tspan></text>
+					</g>
 				</g>
-				<g>
+				<g class="factory-name-top"><text transform="matrix(1 0 0 1 143.1108 600.9922)"><tspan x="0" y="0" class="st21">Neurath</tspan><tspan x="13.3" y="18" class="st21">RWE</tspan></text></g>
+				<path class="line-a st26" d="M175.5,583.6 175.5,550.7 206.1,520.5 206.1,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_1_" gradientUnits="userSpaceOnUse" x1="206.0764" y1="447.9409" x2="206.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="206.1" y1="447.9" x2="206.1" y2="167.9"/>
+						<line class="grid-a st28" x1="174.1" y1="207.9" x2="238.1" y2="207.9"/>
+						<line class="grid-b st29" x1="174.1" y1="247.9" x2="238.1" y2="247.9"/>
+						<line class="grid-a st28" x1="174.1" y1="287.9" x2="238.1" y2="287.9"/>
+						<line class="grid-b st29" x1="174.1" y1="327.9" x2="238.1" y2="327.9"/>
+						<line class="grid-a st28" x1="174.1" y1="367.9" x2="238.1" y2="367.9"/>
+						<line class="grid-b st29" x1="174.1" y1="407.9" x2="238.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M186.1,447.9v-266"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 157.9385 161.8345)" class="st31">33,254</text>
+					</g>
+					<path class="year-2014 st32" d="M206.1,447.9V188.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 177.9385 168.3389)" class="st33">32,441</text>
+					</g>
+					<path class="year-2015 st34" d="M226.1,447.9V197.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 197.374 177.2979)" class="st21">31,321</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="206.1" y1="447.9" x2="174.1" y2="447.9"/>
+					<line class="st35" x1="206.1" y1="447.9" x2="238.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select2">
+				<g id="kraftwerk2">
 					<g>
-						<path class="st21" d="M763,955.5h-15.3c-0.8,0-1.5-0.7-1.5-1.5v-16.9c0-0.8,0.7-1.5,1.5-1.5H763c0.8,0,1.5,0.7,1.5,1.5v16.9
-							C764.5,954.8,763.8,955.5,763,955.5z"/>
+						<path class="factory-path st21" d="M275.4,681v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L275.4,681z"/>
+						<g>
+							<path class="st22" d="M233.7,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C234,692.2,233.8,692.4,233.7,692.4z"/>
+							<path class="st22" d="M252,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H252c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C252.3,692.2,252.2,692.4,252,692.4z"/>
+							<path class="st22" d="M270.4,692.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C270.7,692.2,270.5,692.4,270.4,692.4z"/>
+							<path class="st22" d="M233.7,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C234,698.3,233.8,698.5,233.7,698.5z"/>
+							<path class="st22" d="M252,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H252c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C252.3,698.3,252.2,698.5,252,698.5z"/>
+							<path class="st22" d="M270.4,698.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C270.7,698.3,270.5,698.5,270.4,698.5z"/>
+						</g>
 					</g>
-					<text transform="matrix(1 0 0 1 768.9648 950.9902)" class="st21 st24">Braunkohle</text>
+					<g class="power">
+						<rect x="218.6" y="688.2" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 218.499 701.3418)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 3.669</tspan></text>
+					</g>
+				</g>
+				<g class="factory-name-right"><text transform="matrix(1 0 0 1 284.0234 689.5615)"><tspan x="0" y="0" class="st21">Niederaußem</tspan><tspan x="0" y="18" class="st21">RWE</tspan></text></g>
+				<path class="line-a st26" d="M278.6,664 374.2,568.4 374.2,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_2_" gradientUnits="userSpaceOnUse" x1="374.0764" y1="447.9409" x2="374.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="374.1" y1="447.9" x2="374.1" y2="167.9"/>
+						<line class="grid-a st28" x1="342.1" y1="207.9" x2="406.1" y2="207.9"/>
+						<line class="grid-b st29" x1="342.1" y1="247.9" x2="406.1" y2="247.9"/>
+						<line class="grid-a st28" x1="342.1" y1="287.9" x2="406.1" y2="287.9"/>
+						<line class="grid-b st29" x1="342.1" y1="327.9" x2="406.1" y2="327.9"/>
+						<line class="grid-a st28" x1="342.1" y1="367.9" x2="406.1" y2="367.9"/>
+						<line class="grid-b st29" x1="342.1" y1="407.9" x2="406.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M354.1,447.9V212.1"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 325.9375 192.0742)" class="st31">29,474</text>
+					</g>
+					<path class="year-2014 st32" d="M374.1,447.9v-218"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 345.9375 209.8823)" class="st33">27,248</text>
+					</g>
+					<path class="year-2015 st34" d="M394.1,447.9V229.2"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 365.9375 209.2261)" class="st21">27,330</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="374.1" y1="447.9" x2="342.1" y2="447.9"/>
+					<line class="st35" x1="374.1" y1="447.9" x2="406.1" y2="447.9"/>
 				</g>
 			</g>
-			<g>
-				<g>
-					<line class="year-2013 st30" x1="786" y1="897.1" x2="786" y2="859"/>
-					<line class="year-2014 st32" x1="806" y1="897.1" x2="806" y2="859"/>
-					<line class="year-2015 st34" x1="826" y1="897.1" x2="826" y2="859"/>
-					<line class="st35" x1="774" y1="897.2" x2="838" y2="897.2"/>
+			<g id="select3">
+				<g id="kraftwerk3">
+					<g>
+						<path class="factory-path st21" d="M804.4,553.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L804.4,553.1z"/>
+						<g>
+							<path class="st22" d="M762.6,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C763,564.3,762.8,564.4,762.6,564.4z"/>
+							<path class="st22" d="M781,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H781c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C781.3,564.3,781.2,564.4,781,564.4z"/>
+							<path class="st22" d="M799.3,564.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C799.7,564.3,799.5,564.4,799.3,564.4z"/>
+							<path class="st22" d="M762.6,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C763,570.4,762.8,570.5,762.6,570.5z"/>
+							<path class="st22" d="M781,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H781c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C781.3,570.4,781.2,570.5,781,570.5z"/>
+							<path class="st22" d="M799.3,570.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C799.7,570.4,799.5,570.5,799.3,570.5z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="744.6" y="561.1" class="st21" width="59.7" height="16.8"/>
+						<rect x="747.6" y="560.2" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 747.4912 573.3711)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 3.000</tspan></text>
+					</g>
 				</g>
-				<g>
-					<text transform="matrix(1 0 0 1 736.2039 835.3398)"><tspan x="0" y="0" class="st31 st24">2</tspan><tspan x="10" y="0" class="st31 st24">0</tspan><tspan x="19.4" y="0" class="st31 st24 st56">1</tspan><tspan x="27.5" y="0" class="st31 st24">3</tspan></text>
-					<polyline class="st57" points="786,854.2 771.8,839 737.6,839 					"/>
+				<g class="factory-name-top"><text transform="matrix(1 0 0 1 721.2383 502.1348)"><tspan x="0" y="0" class="st21">Jänschwalde</tspan><tspan x="33.6" y="18" class="st21">Leag</tspan></text></g>
+				<path class="line-a st26" d="M774.7,481.9 793,463.7 793,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_3_" gradientUnits="userSpaceOnUse" x1="794.0764" y1="447.9409" x2="794.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="794.1" y1="447.9" x2="794.1" y2="167.9"/>
+						<line class="grid-a st28" x1="762.1" y1="207.9" x2="826.1" y2="207.9"/>
+						<line class="grid-b st29" x1="762.1" y1="247.9" x2="826.1" y2="247.9"/>
+						<line class="grid-a st28" x1="762.1" y1="287.9" x2="826.1" y2="287.9"/>
+						<line class="grid-b st29" x1="762.1" y1="327.9" x2="826.1" y2="327.9"/>
+						<line class="grid-a st28" x1="762.1" y1="367.9" x2="826.1" y2="367.9"/>
+						<line class="grid-b st29" x1="762.1" y1="407.9" x2="826.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M774.1,447.9V244.7"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 745.9375 224.7061)" class="st31">25,395</text>
+					</g>
+					<path class="year-2014 st32" d="M794.1,447.9V254.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 765.9375 234.2983)" class="st33">24,196</text>
+					</g>
+					<path class="year-2015 st34" d="M814.1,447.9V261.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 785.9375 241.2661)" class="st21">23,325</text>
+					</g>
 				</g>
-				<g>
-					<text transform="matrix(1 0 0 1 787.1033 835.3398)"><tspan x="0" y="0" class="st33 st24">2</tspan><tspan x="10" y="0" class="st33 st24">0</tspan><tspan x="19.4" y="0" class="st33 st24 st56">1</tspan><tspan x="27.5" y="0" class="st33 st24">4</tspan></text>
-					<line class="st58" x1="806" y1="853.8" x2="806" y2="839"/>
-					<line class="st58" x1="787.3" y1="839" x2="824.7" y2="839"/>
+				<g class="line-b">
+					<line class="st35" x1="794.1" y1="447.9" x2="762.1" y2="447.9"/>
+					<line class="st35" x1="794.1" y1="447.9" x2="826.1" y2="447.9"/>
 				</g>
-				<g>
-					<text transform="matrix(1 0 0 1 838.0037 835.3408)"><tspan x="0" y="0" class="st21 st24">2</tspan><tspan x="10" y="0" class="st21 st24">0</tspan><tspan x="19.4" y="0" class="st21 st24 st56">1</tspan><tspan x="27.5" y="0" class="st21 st24">5</tspan></text>
-					<polyline class="st59" points="826,854.2 840.2,839 874.4,839 					"/>
+			</g>
+			<g id="select4">
+				<g id="kraftwerk4">
+					<g>
+						<path class="factory-path st21" d="M840.4,613v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L840.4,613z"/>
+						<g>
+							<path class="st22" d="M798.6,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C799,624.2,798.8,624.3,798.6,624.3z"/>
+							<path class="st22" d="M817,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H817c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C817.3,624.2,817.2,624.3,817,624.3z"/>
+							<path class="st22" d="M835.3,624.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C835.7,624.2,835.5,624.3,835.3,624.3z"/>
+							<path class="st22" d="M798.6,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C799,630.3,798.8,630.5,798.6,630.5z"/>
+							<path class="st22" d="M817,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H817c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C817.3,630.3,817.2,630.5,817,630.5z"/>
+							<path class="st22" d="M835.3,630.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C835.7,630.3,835.5,630.5,835.3,630.5z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="783.6" y="620.2" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 783.4912 633.3086)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.575</tspan></text>
+					</g>
+				</g>
+				<g class="factory-name-right"><text transform="matrix(1 0 0 1 848.9922 621.5625)"><tspan x="0" y="0" class="st21">Boxberg</tspan><tspan x="0" y="18" class="st21">Leag</tspan></text></g>
+				<path class="line-a st26" d="M841.1,597.5 878.3,560.4 878.3,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_4_" gradientUnits="userSpaceOnUse" x1="878.0764" y1="447.9409" x2="878.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="878.1" y1="447.9" x2="878.1" y2="167.9"/>
+						<line class="grid-a st28" x1="846.1" y1="207.9" x2="910.1" y2="207.9"/>
+						<line class="grid-b st29" x1="846.1" y1="247.9" x2="910.1" y2="247.9"/>
+						<line class="grid-a st28" x1="846.1" y1="287.9" x2="910.1" y2="287.9"/>
+						<line class="grid-b st29" x1="846.1" y1="327.9" x2="910.1" y2="327.9"/>
+						<line class="grid-a st28" x1="846.1" y1="367.9" x2="910.1" y2="367.9"/>
+						<line class="grid-b st29" x1="846.1" y1="407.9" x2="910.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M858.1,447.9V294.7"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 829.9375 274.6504)" class="st31">19,152</text>
+					</g>
+					<path class="year-2014 st32" d="M878.1,447.9V298.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 849.9375 278.2744)" class="st33">18,699</text>
+					</g>
+					<path class="year-2015 st34" d="M898.1,447.9V292.4"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 869.9375 272.3701)" class="st21">19,437</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="878.1" y1="447.9" x2="846.1" y2="447.9"/>
+					<line class="st35" x1="878.1" y1="447.9" x2="910.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select5">
+				<g id="kraftwerk5">
+					<g>
+						<path class="factory-path st21" d="M208.4,711.8v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L208.4,711.8z"/>
+						<g>
+							<path class="st22" d="M166.7,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C167,722.9,166.9,723.1,166.7,723.1z"/>
+							<path class="st22" d="M185,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H185c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C185.4,722.9,185.2,723.1,185,723.1z"/>
+							<path class="st22" d="M203.4,723.1h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C203.7,722.9,203.6,723.1,203.4,723.1z"/>
+							<path class="st22" d="M166.7,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C167,729.1,166.9,729.2,166.7,729.2z"/>
+							<path class="st22" d="M185,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H185c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C185.4,729.1,185.2,729.2,185,729.2z"/>
+							<path class="st22" d="M203.4,729.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C203.7,729.1,203.6,729.2,203.4,729.2z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="151.7" y="718.9" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 151.5205 732.0605)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.596</tspan></text>
+					</g>
+				</g>
+				<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 134.5117 757.2285)"><tspan x="0" y="0" class="st21">Weisweiler</tspan><tspan x="24.8" y="18" class="st21">RWE</tspan></text></g>
+				<path class="line-a st26" d="M142.8,703.2l-20.7-20.7V447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_5_" gradientUnits="userSpaceOnUse" x1="122.0764" y1="447.9409" x2="122.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="122.1" y1="447.9" x2="122.1" y2="167.9"/>
+						<line class="grid-a st28" x1="90.1" y1="207.9" x2="154.1" y2="207.9"/>
+						<line class="grid-b st29" x1="90.1" y1="247.9" x2="154.1" y2="247.9"/>
+						<line class="grid-a st28" x1="90.1" y1="287.9" x2="154.1" y2="287.9"/>
+						<line class="grid-b st29" x1="90.1" y1="327.9" x2="154.1" y2="327.9"/>
+						<line class="grid-a st28" x1="90.1" y1="367.9" x2="154.1" y2="367.9"/>
+						<line class="grid-b st29" x1="90.1" y1="407.9" x2="154.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M102.1,447.9V298.6"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 73.938 278.5786)" class="st31">18,661</text>
+					</g>
+					<path class="year-2014 st32" d="M122.1,447.9V313"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 93.9385 293.0347)" class="st33">16,854</text>
+					</g>
+					<path class="year-2015 st34" d="M142.1,447.9V302.8"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 113.9385 282.7549)" class="st21">18,139</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="122.1" y1="447.9" x2="90.1" y2="447.9"/>
+					<line class="st35" x1="122.1" y1="447.9" x2="154.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select6">
+				<g id="kraftwerk6">
+					<g>
+						<path class="factory-path st21" d="M768.6,621.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L768.6,621.1z"/>
+						<g>
+							<path class="st22" d="M726.9,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+							C727.2,632.2,727.1,632.4,726.9,632.4z"/>
+							<path class="st22" d="M745.3,632.4H732c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C745.6,632.2,745.5,632.4,745.3,632.4z"/>
+							<path class="st22" d="M763.6,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C763.9,632.2,763.8,632.4,763.6,632.4z"/>
+							<path class="st22" d="M726.9,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C727.2,638.4,727.1,638.5,726.9,638.5z"/>
+							<path class="st22" d="M745.3,638.5H732c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C745.6,638.4,745.5,638.5,745.3,638.5z"/>
+							<path class="st22" d="M763.6,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C763.9,638.4,763.8,638.5,763.6,638.5z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="711.9" y="628.2" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 711.7637 641.3555)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 1.600</tspan></text>
+					</g>
+				</g>
+				<g class="factory-name-bottom"><text transform="matrix(1 0 0 1 699.3613 666.4824)"><tspan x="0" y="0" class="st21">Schwarze</tspan><tspan x="10.8" y="18" class="st21">Pumpe</tspan><tspan x="19.9" y="36" class="st21">Leag</tspan></text></g>
+				<path class="line-a st26" d="M718,590.5l-8-8V447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_6_" gradientUnits="userSpaceOnUse" x1="710.0764" y1="447.9409" x2="710.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="710.1" y1="447.9" x2="710.1" y2="167.9"/>
+						<line class="grid-a st28" x1="678.1" y1="207.9" x2="742.1" y2="207.9"/>
+						<line class="grid-b st29" x1="678.1" y1="247.9" x2="742.1" y2="247.9"/>
+						<line class="grid-a st28" x1="678.1" y1="287.9" x2="742.1" y2="287.9"/>
+						<line class="grid-b st29" x1="678.1" y1="327.9" x2="742.1" y2="327.9"/>
+						<line class="grid-a st28" x1="678.1" y1="367.9" x2="742.1" y2="367.9"/>
+						<line class="grid-b st29" x1="678.1" y1="407.9" x2="742.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M690.1,447.9v-90.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 661.9375 337.6016)" class="st31">11,283</text>
+					</g>
+					<path class="year-2014 st32" d="M710.1,447.9v-92.7"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 681.9375 335.2109)" class="st33">11,582</text>
+					</g>
+					<path class="year-2015 st34" d="M730.1,447.9v-98"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 701.9375 329.9141)" class="st21">12,244</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="710.1" y1="447.9" x2="678.1" y2="447.9"/>
+					<line class="st35" x1="710.1" y1="447.9" x2="742.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select7">
+				<g id="kraftwerk7">
+					<g>
+						<path class="factory-path st21" d="M674.4,648.3v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3V653h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L674.4,648.3z"/>
+						<g>
+							<path class="st22" d="M632.7,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C633,659.5,632.9,659.7,632.7,659.7z"/>
+							<path class="st22" d="M651.1,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C651.4,659.5,651.2,659.7,651.1,659.7z"/>
+							<path class="st22" d="M669.4,659.7h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C669.7,659.5,669.6,659.7,669.4,659.7z"/>
+							<path class="st22" d="M632.7,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C633,665.6,632.9,665.8,632.7,665.8z"/>
+							<path class="st22" d="M651.1,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C651.4,665.6,651.2,665.8,651.1,665.8z"/>
+							<path class="st22" d="M669.4,665.8h-13.3c-0.2,0-0.3-0.1-0.3-0.3V664c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C669.7,665.6,669.6,665.8,669.4,665.8z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="617.7" y="655.5" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 617.5527 668.6309)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 1.840</tspan></text>
+					</g>
+				</g>
+				<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 600.2334 693.5127)"><tspan x="0" y="0" class="st21">Lippendorf</tspan><tspan x="-3.4" y="18" class="st21">Leag/EnBW</tspan></text></g>
+				<path class="line-a st26" d="M652,621.7v-67.2l-26-28v-78.7"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_7_" gradientUnits="userSpaceOnUse" x1="626.0764" y1="447.9409" x2="626.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="626.1" y1="447.9" x2="626.1" y2="167.9"/>
+						<line class="grid-a st28" x1="594.1" y1="207.9" x2="658.1" y2="207.9"/>
+						<line class="grid-b st29" x1="594.1" y1="247.9" x2="658.1" y2="247.9"/>
+						<line class="grid-a st28" x1="594.1" y1="287.9" x2="658.1" y2="287.9"/>
+						<line class="grid-b st29" x1="594.1" y1="327.9" x2="658.1" y2="327.9"/>
+						<line class="grid-a st28" x1="594.1" y1="367.9" x2="658.1" y2="367.9"/>
+						<line class="grid-b st29" x1="594.1" y1="407.9" x2="658.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" x1="606.1" d="M606.1,447.9V354"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 577.9375 334.043)" class="st31">11,728</text>
+					</g>
+					<path class="year-2014 st32" x1="626.1" d="M626.1,447.9v-95.2"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 597.9375 332.6348)" class="st33">11,904</text>
+					</g>
+					<path class="year-2015 st34" x1="646.1" d="M646.1,447.9v-82.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 617.9375 345.5225)" class="st21">10,293</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="626.1" y1="447.9" x2="594.1" y2="447.9"/>
+					<line class="st35" x1="626.1" y1="447.9" x2="658.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select8">
+				<g id="kraftwerk8">
+					<g>
+						<path class="factory-path st42" d="M372.4,860.9v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8V862c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L372.4,860.9z"/>
+						<g>
+							<path class="st22" d="M330.7,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C331,872.1,330.9,872.2,330.7,872.2z"/>
+							<path class="st22" d="M349,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H349c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C349.4,872.1,349.2,872.2,349,872.2z"/>
+							<path class="st22" d="M367.4,872.2h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C367.7,872.1,367.6,872.2,367.4,872.2z"/>
+							<path class="st22" d="M330.7,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C331,878.2,330.9,878.3,330.7,878.3z"/>
+							<path class="st22" d="M349,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H349c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C349.4,878.2,349.2,878.3,349,878.3z"/>
+							<path class="st22" d="M367.4,878.3h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C367.7,878.2,367.6,878.3,367.4,878.3z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="315.7" y="868.1" class="st42" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 315.542 881.1943)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 2.146</tspan></text>
+					</g>
+				</g>
+				<g  class="factory-name-bottom"><text transform="matrix(1 0 0 1 304.3086 906.3193)"><tspan x="0" y="0" class="st42 st5">Mannheim</tspan><tspan x="20.5" y="16" class="st42 st5">GKW</tspan></text></g>
+				<path class="line-a st43" d="M350.4,834.3 459.1,725.6 459.1,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_8_" gradientUnits="userSpaceOnUse" x1="458.0764" y1="447.9409" x2="458.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="458.1" y1="447.9" x2="458.1" y2="167.9"/>
+						<line class="grid-a st28" x1="426.1" y1="207.9" x2="490.1" y2="207.9"/>
+						<line class="grid-b st29" x1="426.1" y1="247.9" x2="490.1" y2="247.9"/>
+						<line class="grid-a st28" x1="426.1" y1="287.9" x2="490.1" y2="287.9"/>
+						<line class="grid-b st29" x1="426.1" y1="327.9" x2="490.1" y2="327.9"/>
+						<line class="grid-a st28" x1="426.1" y1="367.9" x2="490.1" y2="367.9"/>
+						<line class="grid-b st29" x1="426.1" y1="407.9" x2="490.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st45" d="M438.1,447.9v-54"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 415.1016 373.8662)" class="st46">6,750</text>
+					</g>
+					<path class="year-2014 st47" d="M458.1,447.9v-49.5"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 435.1016 378.3867)" class="st48">6,185</text>
+					</g>
+					<path class="year-2015 st49" d="M478.1,447.9v-58.5"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 455.1016 369.3379)" class="st42">7,316</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st50" x1="458.1" y1="447.9" x2="426.1" y2="447.9"/>
+					<line class="st50" x1="458.1" y1="447.9" x2="490.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select9">
+				<g id="kraftwerk9">
+					<g>
+						<path class="factory-path st21" d="M611.4,623.1V648h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L611.4,623.1z"/>
+						<g>
+							<path class="st22" d="M569.7,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C570.1,634.3,569.9,634.4,569.7,634.4z"/>
+							<path class="st22" d="M588.1,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C588.4,634.3,588.3,634.4,588.1,634.4z"/>
+							<path class="st22" d="M606.4,634.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C606.8,634.3,606.6,634.4,606.4,634.4z"/>
+							<path class="st22" d="M569.7,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C570.1,640.4,569.9,640.6,569.7,640.6z"/>
+							<path class="st22" d="M588.1,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C588.4,640.4,588.3,640.6,588.1,640.6z"/>
+							<path class="st22" d="M606.4,640.6h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C606.8,640.4,606.6,640.6,606.4,640.6z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="554.7" y="630.3" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 561.5781 643.4121)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 900</tspan></text>
+					</g>
+				</g>
+				<g class="factory-name-top"><text transform="matrix(1 0 0 1 497.6152 572.3359)"><tspan x="0" y="0" class="st21">Schkopau -Uniper     </tspan><tspan x="28.8" y="18" class="st21">Saale Energie</tspan></text></g>
+				<path class="line-a st26" d="M581.5,555l-39.5-41.5v-65.7"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_9_" gradientUnits="userSpaceOnUse" x1="542.0764" y1="447.9409" x2="542.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="542.1" y1="447.9" x2="542.1" y2="167.9"/>
+						<line class="grid-a st28" x1="510.1" y1="207.9" x2="574.1" y2="207.9"/>
+						<line class="grid-b st29" x1="510.1" y1="247.9" x2="574.1" y2="247.9"/>
+						<line class="grid-a st28" x1="510.1" y1="287.9" x2="574.1" y2="287.9"/>
+						<line class="grid-b st29" x1="510.1" y1="327.9" x2="574.1" y2="327.9"/>
+						<line class="grid-a st28" x1="510.1" y1="367.9" x2="574.1" y2="367.9"/>
+						<line class="grid-b st29" x1="510.1" y1="407.9" x2="574.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M522.1,447.9v-45.3"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 499.1777 382.5293)" class="st31">5,667</text>
+					</g>
+					<path class="year-2014 st32" d="M542.1,447.9v-44.2"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 519.1777 384.0176)" class="st33">5,530</text>
+					</g>
+					<path class="year-2015 st34" d="M562.1,447.9v-42.8"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 539.1016 385.0586)" class="st21">5,351</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="542.1" y1="447.9" x2="510.1" y2="447.9"/>
+					<line class="st35" x1="542.1" y1="447.9" x2="574.1" y2="447.9"/>
+				</g>
+			</g>
+			<g id="select10">
+				<g id="kraftwerk10">
+					<g>
+						<path class="factory-path st21" d="M274.4,621.1v24.8h-59.7v-16.7c0-1.9,1.6-3.5,3.5-3.5h3.6v-21.9c0-1.2,1-2.3,2.3-2.3
+						h3.5c1.2,0,2.3,1,2.3,2.3v21.9h4v-28c0-1.2,1-2.3,2.3-2.3h3.5c1.2,0,2.3,1,2.3,2.3v28h4.8v-3.6c0-0.8,0.6-1.4,1.4-1.4h3.2v-13.9
+						c0-0.8,0.6-1.4,1.4-1.4h3.6c0.8,0,1.4,0.6,1.4,1.4l0,0h6.1c0.8,0,1.4,0.6,1.4,1.4L274.4,621.1z"/>
+						<g>
+							<path class="st22" d="M232.7,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C233,632.3,232.8,632.4,232.7,632.4z"/>
+							<path class="st22" d="M251,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H251c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C251.3,632.3,251.2,632.4,251,632.4z"/>
+							<path class="st22" d="M269.4,632.4h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C269.7,632.3,269.5,632.4,269.4,632.4z"/>
+							<path class="st22" d="M232.7,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C233,638.4,232.8,638.5,232.7,638.5z"/>
+							<path class="st22" d="M251,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3H251c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C251.3,638.4,251.2,638.5,251,638.5z"/>
+							<path class="st22" d="M269.4,638.5h-13.3c-0.2,0-0.3-0.1-0.3-0.3v-1.4c0-0.2,0.1-0.3,0.3-0.3h13.3c0.2,0,0.3,0.1,0.3,0.3v1.4
+								C269.7,638.4,269.5,638.5,269.4,638.5z"/>
+						</g>
+					</g>
+					<g class="power">
+						<rect x="217.6" y="628.3" class="st21" width="53.7" height="15.1"/>
+						<text transform="matrix(1 0 0 1 224.5034 641.4043)"><tspan x="0" y="0" class="st22 st23 st25"></tspan><tspan x="8.1" y="0" class="st22 st25"> 635</tspan></text>
+					</g>
+				</g>
+				<g class="factory-name-top"><text transform="matrix(1 0 0 1 188.8774 570.2559)"><tspan x="0" y="0" class="st21">Frimmersdorf</tspan><tspan x="36.3" y="18" class="st21">RWE</tspan></text></g>
+				<path class="line-a st26" d="M244.5,553.1 290,507.7 290,447.9"/>
+				<g class="graphs">
+					<g class="year-bg">
+						<linearGradient id="grid-bg_10_" gradientUnits="userSpaceOnUse" x1="290.0764" y1="447.9409" x2="290.0764" y2="167.9409">
+							<stop  offset="0.8" style="stop-color:#FFFFFF"/>
+							<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+						</linearGradient>
+						<line class="grid-bg st27" x1="290.1" y1="447.9" x2="290.1" y2="167.9"/>
+						<line class="grid-a st28" x1="258.1" y1="207.9" x2="322.1" y2="207.9"/>
+						<line class="grid-b st29" x1="258.1" y1="247.9" x2="322.1" y2="247.9"/>
+						<line class="grid-a st28" x1="258.1" y1="287.9" x2="322.1" y2="287.9"/>
+						<line class="grid-b st29" x1="258.1" y1="327.9" x2="322.1" y2="327.9"/>
+						<line class="grid-a st28" x1="258.1" y1="367.9" x2="322.1" y2="367.9"/>
+						<line class="grid-b st29" x1="258.1" y1="407.9" x2="322.1" y2="407.9"/>
+					</g>
+					<path class="year-2013 st30" d="M270.1,447.9v-34.1"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 247.1016 393.7949)" class="st31">4,259</text>
+					</g>
+					<path class="year-2014 st32" d="M290.1,447.9v-35.6"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 267.1016 392.29)" class="st33">4,447</text>
+					</g>
+					<path class="year-2015 st34" d="M310.1,447.9v-38"/>
+					<g class="nbr">
+						<text transform="matrix(1 0 0 1 287.1016 389.8496)" class="st21">4,752</text>
+					</g>
+				</g>
+				<g class="line-b">
+					<line class="st35" x1="290.1" y1="447.9" x2="258.1" y2="447.9"/>
+					<line class="st35" x1="290.1" y1="447.9" x2="322.1" y2="447.9"/>
 				</g>
 			</g>
 		</g>
-		<g id="infotext-1">
-			<path id="info-icon-1" class="st60" d="M738,786.6c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S749.1,786.6,738,786.6z M740.3,817.8
-				h-4.6v-16.9h4.6V817.8z M740.3,796.8h-4.6v-3.4h4.6V796.8z"/>
-			<text transform="matrix(1 0 0 1 767.334 801.666)"><tspan x="0" y="0" class="st42 st24">Klicken Sie auf  </tspan><tspan x="0" y="21.6" class="st42 st24">die Kraftwerke</tspan></text>
-		</g>
-	</g>
-	<g id="infotext-2">
-		<g id="info-icon-2">
-			<circle class="st61" cx="872" cy="106.8" r="21"/>
-			<path id="icon" class="st60" d="M872,86.8c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S883,86.8,872,86.8z M874.3,118h-4.6v-16.9
-				h4.6V118z M874.3,97h-4.6v-3.4h4.6V97z"/>
-		</g>
-		<g id="info-line-2">
-			<g>
-				<path class="st62" d="M963,204.8H781c-2.8,0-5-2.2-5-5v-56c0-2.8,2.2-5,5-5h182c2.8,0,5,2.2,5,5v56
-					C968,202.5,965.8,204.8,963,204.8z"/>
-				<path class="st55" d="M963,204.8H781c-2.8,0-5-2.2-5-5v-56c0-2.8,2.2-5,5-5h182c2.8,0,5,2.2,5,5v56
-					C968,202.5,965.8,204.8,963,204.8z"/>
-			</g>
-			<text transform="matrix(1 0 0 1 785.0822 157.8092)"><tspan x="0" y="0" class="st42 font-reg st5">Für mehr Informationen,</tspan><tspan x="6.1" y="19.2" class="st42 font-reg st5">bewege die Maus über </tspan><tspan x="43.9" y="38.4" class="st42 font-reg st5">die Grafiken</tspan></text>
-		</g>
-	</g>
-</g> <!-- End "info-boards" -->
+		<g id="title">
+		<text transform="matrix(1 0 0 1 315.1719 51.3994)"><tspan x="0" y="0" class="st42 st63">CO</tspan><tspan x="52.9" y="0" class="st42 st64">2</tspan><tspan x="67.2" y="0" class="st42 st63">-Emissionen der  </tspan><tspan x="-66.8" y="42" class="st42 st63">10 größten Kohlekraftwerke</tspan><tspan x="55.9" y="78" class="st42 st65">(2013, 2014, 2015)</tspan></text>
+		
+		<text transform="matrix(1 0 0 1 66.8838 1169)"><tspan x="0" y="0" class="st69 font-reg">Quelle:  Emissionshandelspflichtige stationäre Anlagen und Luftverkehr in Deutschland (VET-Bericht 2016), </tspan><tspan x="112.2" y="21.6" class="st69 font-reg"> Herausgeber: Deutsche Emissionshandelsstelle (DEHSt) im Umweltbundesamt</tspan></text>
 
-<g id="txt">
-	<g>
-		<path class="st62" d="M162.7,131.8H64.8c-1.2,0-2.3,0.4-3.3,1.2l-16.9,18.8l-19-18.9c-0.9-0.7-2-1.1-3.1-1.1h0
-			c-2.4,0-4.3-1.9-4.3-4.3V86.8c0-2.8,2.2-5,5-5h139.4c2.8,0,5,2.2,5,5v40C167.7,129.6,165.4,131.8,162.7,131.8z"/>
-		<path class="st66" d="M162.7,131.8H64.8c-1.2,0-2.3,0.4-3.3,1.2l-16.9,18.8l-19-18.9c-0.9-0.7-2-1.1-3.1-1.1h0
-			c-2.4,0-4.3-1.9-4.3-4.3V86.8c0-2.8,2.2-5,5-5h139.4c2.8,0,5,2.2,5,5v40C167.7,129.6,165.4,131.8,162.7,131.8z"/>
-		<text transform="matrix(1 0 0 1 26.3125 101.8845)"><tspan x="0" y="0" class="st42 font-reg st24">Emissionen in</tspan><tspan x="0" y="20" class="st42 font-reg st24">Mio. Tonnen CO</tspan><tspan x="129" y="20" class="st42 font-reg st67">2</tspan></text>
+		<text id="credits" transform="matrix(1 0 0 1 312.2892 1228.2764)" class="st71 font-reg st5">
+				<a id="g1" href="https://correctiv.org/" target="_blank">Correctiv.org</a> | 
+				<a id="g1" href="http://www.klimaretter.info/" target="_blank"> Klimaretter.info</a> | Design: 
+				<a id="g1" href="http://www.kreataz.com/" target="_blank">kreataz</a></text>
 	</g>
-	<g>
-		<text transform="matrix(1 0 0 1 43.6729 448.8672)" class="st42 st24">0</text>
-		<text transform="matrix(1 0 0 1 33.3457 368.9766)" class="st42 st24">10</text>
-		<text transform="matrix(1 0 0 1 33.3457 289.0859)" class="st42 st24">20</text>
-		<text transform="matrix(1 0 0 1 33.3457 209.1963)" class="st42 st24">30</text>
-		<line class="st50" x1="63" y1="448.8" x2="63" y2="167.4"/>
-		<line class="st55" x1="63" y1="407.9" x2="69" y2="407.9"/>
-		<line class="st68" x1="63" y1="367.9" x2="73" y2="367.9"/>
-		<line class="st68" x1="63" y1="447.8" x2="73" y2="447.8"/>
-		<line class="st55" x1="63" y1="327.9" x2="69" y2="327.9"/>
-		<line class="st68" x1="63" y1="287.9" x2="73" y2="287.9"/>
-		<line class="st55" x1="63" y1="247.9" x2="69" y2="247.9"/>
-		<line class="st68" x1="63" y1="207.9" x2="73" y2="207.9"/>
-		<line class="st55" x1="63" y1="167.9" x2="69" y2="167.9"/>
-	</g>
-</g> <!-- End "txt" -->
+	<!-- End "main-svg" -->
+
+	<g id="table">
+		<g id="count">
+			<path class="st62" d="M162.7,131.8H64.8c-1.2,0-2.3,0.4-3.3,1.2l-16.9,18.8l-19-18.9c-0.9-0.7-2-1.1-3.1-1.1h0
+				c-2.4,0-4.3-1.9-4.3-4.3V86.8c0-2.8,2.2-5,5-5h139.4c2.8,0,5,2.2,5,5v40C167.7,129.6,165.4,131.8,162.7,131.8z"/>
+			<path class="st66" d="M162.7,131.8H64.8c-1.2,0-2.3,0.4-3.3,1.2l-16.9,18.8l-19-18.9c-0.9-0.7-2-1.1-3.1-1.1h0
+				c-2.4,0-4.3-1.9-4.3-4.3V86.8c0-2.8,2.2-5,5-5h139.4c2.8,0,5,2.2,5,5v40C167.7,129.6,165.4,131.8,162.7,131.8z"/>
+			<text transform="matrix(1 0 0 1 26.3125 101.8845)"><tspan x="0" y="0" class="st42 font-reg">Emissionen in</tspan><tspan x="0" y="20" class="st42 font-reg">Mio. Tonnen CO</tspan><tspan x="129" y="20" class="st42 font-reg st67">2</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 43.6729 448.8672)" class="st42">0</text>
+			<text transform="matrix(1 0 0 1 33.3457 368.9766)" class="st42">10</text>
+			<text transform="matrix(1 0 0 1 33.3457 289.0859)" class="st42">20</text>
+			<text transform="matrix(1 0 0 1 33.3457 209.1963)" class="st42">30</text>
+			<line class="st50" x1="63" y1="448.8" x2="63" y2="167.4"/>
+			<line class="st55" x1="63" y1="407.9" x2="69" y2="407.9"/>
+			<line class="st68" x1="63" y1="367.9" x2="73" y2="367.9"/>
+			<line class="st68" x1="63" y1="447.8" x2="73" y2="447.8"/>
+			<line class="st55" x1="63" y1="327.9" x2="69" y2="327.9"/>
+			<line class="st68" x1="63" y1="287.9" x2="73" y2="287.9"/>
+			<line class="st55" x1="63" y1="247.9" x2="69" y2="247.9"/>
+			<line class="st68" x1="63" y1="207.9" x2="73" y2="207.9"/>
+			<line class="st55" x1="63" y1="167.9" x2="69" y2="167.9"/>
+		</g>
+	</g> <!-- End "table" -->
 
 </svg>

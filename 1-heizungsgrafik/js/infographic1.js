@@ -1,14 +1,69 @@
 /* Load the Infographic */
-
 var s = Snap("#snappy");
-Snap.load("infographic1.svg", onSVGLoaded);
 
-function onSVGLoaded(data) {
-	mainGraph = data.select("#main-svg");
+Snap.load("infographic1.svg", function(f) {
+	var mainGraph = f.select("#main-svg"); // "main-svg" will be appended
+
+	var spots = f.selectAll("*[id$='-graph'] > circle");
+
+	spots.forEach( function(a) {
+
+		a.mouseover(function(e) { 
+			this.animate({ transform: 's1.66' }, 250, mina.ease);
+		});
+
+		a.mouseout(function(e) {
+			this.animate({ transform: 's1' }, 250, mina.ease);
+		});
+
+	});
+
+
+
+
+
+
+
+
+
+	var heat = f.select("#heat"),
+		heatMask = f.select("#heat-mask");
+
+	heat.attr({ mask: heatMask });
+
+	function heatUp() {
+
+		heat.stop().attr({ opacity : 1 }).animate({ transform: 't0,-100' }, 5000, mina.linear,
+		function() { 
+			this.attr({ opacity : 0, transform: 't0,0' });
+		}, .2, mina.ease);
+/*	*/
+		heatMask.stop().animate({ transform: 't0,100' }, 5000, mina.linear,
+		function() { 
+			this.attr({ transform: 't0,0' }); 
+			heatUp();
+		}, .2, mina.ease);
+
+	}
+	heatUp();
+
+	// All Snap appends:
 	s.append(mainGraph);
-}
+});
 
-/* Add sound */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add sound 
 function playclip() {
 	if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
 		if (document.all) {
@@ -23,57 +78,4 @@ else {
 		}
 	}
 }
-
-
-/* Anim the Heat 
-
-
-console.log("selectAll: ", Snap.selectAll('.st24, .st25, .st26'));
-
-var grabLink = Snap.select('#heat'),
-    grabPathRectangles = Snap.selectAll('.st24, .st25, .st26');
-
-function colorPathRectangles(){
-  grabPathRectangles.animate({fill: 'red'}, 1000, mina.ease);
-} 
-function resumePathRectangles(){
-  grabPathRectangles.animate({fill: 'green'}, 1000, mina.ease);
-}   
-
-grabLink.hover(colorPathRectangles, resumePathRectangles);
-
-
-
-var s = Snap("#svg");
-var g = s.group();
-
-
-var radiaTop = Snap.load("infographic1.svg", function (f) {
-	g.append(f.select("#heat"));
-	g.attr({ opacity: '0.5'});
-});
-
-
-var heatLength = heat.getTotalLength();
-heat.attr({ strokeDasharray: heatLength + ' ' + heatLength })
-
-Snap.animate(heatLength*2, heatLength, function(val) {
-    heat.attr({
-        strokeDashoffset: val  });
-}, 4000, mina.ease);
-
-
-
-var s = Snap("#svg");
-var g = s.group();
-
-
-$(document).ready(function () {
-    $("#oil-badge").hover(function () {
-        $("#oil-nbr-1").css("opacity", "0.5");
-    });
-    $("#oil-badge").mouseleave(function () {
-        $("#oil-nbr-1").css("opacity", "1");
-    });
-});
 */

@@ -5,19 +5,18 @@ var s = Snap("#snappy");
 Snap.load("infographic4.svg", function(f) {
 
 	var mainGraph = f.select("#main-svg"); // "main-svg" will be appended
-	var whiteBoard = s.rect(708.5, 773.5, 195, 65, 2.5, 2.5); // "whiteBoard" will be appended
-	var infoBoards = f.select("#info-boards"); // "info-boards" will be appended
-	var txt = f.select("#txt"); // "txt" will be appended
+	var background = f.select("#background"); // the "background" will be appended before the rest
+	var table = f.select("#table"); // "table" will be appended
 
 	var factory = f.selectAll("*[id^='kraftwerk']");
 	var factoryLineA = f.selectAll("*[id^='select']>.line-a");
 	var graphLines = f.selectAll("*[id^='select']>.graphs>*[class^='year-20']");
 	var infoText1 = f.select("#infotext-1");
 	var infoText2 = f.select("#infotext-2");
-	var legende =  f.select("#legende");
-	var infoPop =  f.select("#info-icon-2>circle"); // small info circle to animate
+	var infoPop =  f.select("#info-icon>circle"); // small info circle to animate
+	var smoke1, smoke2;
 
-	whiteBoard.attr({ fill: '#f2f2f2' });
+	s.append(background);
 
 	// Lines from Factories to Graphs
 	factoryLineA.forEach( function(e) {
@@ -38,7 +37,6 @@ Snap.load("infographic4.svg", function(f) {
         'stroke-dashoffset': lineLength // <- ici retirer le testeur /5
     	});
 	});
-
 
 	// Factories & Graphs animations:
 	factory.forEach( function(a) {
@@ -70,8 +68,6 @@ Snap.load("infographic4.svg", function(f) {
 					year15Line.animate({ strokeDashoffset : 0 }, 250, mina.ease);
 				}, 250);
 
-				whiteBoard.animate({ height: 280 }, 500, mina.ease);
-
 			} else {
 				this.removeClass('selected');
 
@@ -88,26 +84,17 @@ Snap.load("infographic4.svg", function(f) {
 			}
 
 
-			// to reveal/remove legende on info-board:
+			// to reveal/hide table:
 			if (($('[id^=kraftwerk].selected').length) >= 1) {
-				infoText1.addClass('hide');
+				table.addClass('show');
+				reset.addClass('show');
+				infoText1.removeClass('show');
 				infoText2.addClass('show');
-				legende.addClass('show');
-				txt.addClass('show');
 			} else {
-				infoText1.removeClass('hide');
+				table.removeClass('show');
+				reset.removeClass('show');
+				infoText1.addClass('show');
 				infoText2.removeClass('show');
-				legende.removeClass('show');
-				txt.removeClass('show');
-			}
-
-			// to animate info-board:
-			if (($('[id^=kraftwerk].selected').length) == 0) {
-				setTimeout(function () {
-					whiteBoard.animate({
-						height: 65
-					}, 500, mina.easein);
-				}, 250);
 			}
 
 		});
@@ -127,7 +114,6 @@ Snap.load("infographic4.svg", function(f) {
 		});
 
 	});
-
 
 	// Reset graphic:
 	var reset = f.select("#reset");
@@ -171,36 +157,17 @@ Snap.load("infographic4.svg", function(f) {
 			factoryLineA.attr({'stroke-linecap': 'inherit' });
 		}, 250);
 
-		// Reset legende & infos visibility:
-		infoText1.removeClass('hide');
+		// Hide table, infotext-2 & reset:
+		table.removeClass('show');
+		reset.removeClass('show');
+		infoText1.addClass('show');
 		infoText2.removeClass('show');
-		legende.removeClass('show');
-		txt.removeClass('show');
 
-		// Reset legende rectangle:
-		setTimeout(function () {
-			whiteBoard.animate({
-				height: 65
-			}, 500, mina.easein);
-		}, 250);
 
 	});
 
 
-	// Stops info-icon-2 circle animation on hover:
-	infoText2.mouseover(function(){
-		infoPop.stop();
-	}, function(){
-		infoPulse();
-	});
-	// To make animation continue on mouseout:
-/*	infoText2.mouseout(function(){
-		infoPulse();
-	}); */
-
-	infoPulse();
-
-	// Infinite animation info-icon-2 circle:
+	// Infinite animation info-icon circle:
 	function infoPulse(){
 		infoPop.stop().animate({ 
 			r: 23 
@@ -210,11 +177,11 @@ Snap.load("infographic4.svg", function(f) {
 			}); infoPulse(); // Repeat this animation so it appears infinite.
 		}, 200, mina.ease);
 	}
+	infoPulse();
 
 	s.append(mainGraph);
-	s.append(whiteBoard);
-	s.append(infoBoards);
-	s.append(txt);
+	s.append(table);
+//	s.append(bigCircle);
 });
 
 

@@ -81,25 +81,14 @@ Snap.load("infographic2.svg", function(f) {
 	iconsPulse();
 
 
-	// popInfoBg circle infinite animation:
-	var popInfo =  f.select("#pop-info");
-	var popInfoBg =  f.select("#pop-info>circle"); 
-
-	popInfo.mouseover(function(){
-		this.addClass('check');
-	})
-//	.mouseout(function(){
-//		this.removeClass('check');
-//	})
-	;
+	// infoIconBg circle infinite animation:
+	var infoIconBg =  f.select("#info-icon>circle"); 
 
 	function infoPulse() {
-		popInfoBg.stop().animate({ r: 23 }, 1500, mina.elastic,
+		infoIconBg.stop().animate({ r: 23 }, 1500, mina.elastic,
 		
 		function() { 
-			if (popInfo.attr('class') != 'check') {
-				popInfoBg.attr({ r: 20.5 }); 
-			}
+			infoIconBg.attr({ r: 20.5 }); 
 
 			infoPulse();
 		

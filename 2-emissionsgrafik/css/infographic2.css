@@ -6,7 +6,7 @@
 .st10{fill:#FD8187;stroke:#E4F4F4;stroke-miterlimit:10;}
 .st11{fill:#FFFFFF;}
 .st12{font-size:92px;}
-.st13{font-size:18px;}
+
 .st14{fill:none;stroke:#464646;stroke-width:80;stroke-miterlimit:10;}
 .st15{fill:none;stroke:#777777;stroke-width:80;stroke-miterlimit:10;}
 .st16{fill:none;stroke:#666666;stroke-width:80;stroke-miterlimit:10;}
@@ -71,7 +71,7 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	font-weight: bold;
 	font-style: normal;
-	font-size: 12px;
+	font-size: 18px;
 }
 body .font-reg {
 	font-weight: normal;

@@ -1,7 +1,7 @@
 /* General Styles */
 .st0{fill:#BFDDDC;}
 .st1{fill:url(#SVGID_1_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
-
+.st2{fill:#A4CACF;}
 .st3{font-size:12px;}
 .st4{fill:url(#SVGID_2_);stroke:#A4CACF;stroke-width:1.5;stroke-miterlimit:10;}
 .st5{font-size:16px;}
@@ -23,7 +23,7 @@
 .st21{fill:#6C351C;}
 .st22{fill:#D8D8D8;}
 .st23{font-family:'FontAwesome';}
-.st24{font-size:18px;}
+
 .st25{font-size:16.2px;}
 .st26{fill:none;stroke:#6C351C;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 .st27{opacity:0.5;fill:none;stroke:url(#grid-bg_1_);stroke-width:64;stroke-miterlimit:10;}
@@ -63,7 +63,7 @@
 .st67{font-size:10px;}
 .st68{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
 .st69{fill:#1B7A88;}
-
+.st70{fill:none;stroke:#F2F2F2;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 .st71{fill:#4995A0;}
 .st72{display:none;}
 .st73{display:inline;}
@@ -77,28 +77,16 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	font-weight: bold;
 	font-style: normal;
-	font-size: 12px;
+	font-size: 18px;
+}
+body .font-reg {
+	font-weight: normal;
 }
 #credits a {
 	fill: #4995A0;
 }
 #credits a:hover {
 	fill: #1B7A88;
-}
-
-/* Text Styles */
-#title {
-	font-size: 20px;
-	fill: #353535;
-}
-#title .title-s {
-	font-size: 13px;
-}
-.font-reg {
-	font-weight: normal;
-}
-#background {
-	font-weight: lighter;
 }
 
 /* Kraftwerk styles */
@@ -219,6 +207,7 @@ body {
 
 /* appearing years above graphs */
 .graphs .nbr {
+	text-shadow: 1px 1px #BFDDDC;
 	visibility: hidden;
 	opacity: 0;
 	transform: translate(0, 5px);
@@ -231,41 +220,36 @@ body {
 	transition: all .5s ease;
 }
 
-
-#infotext-1.hide, #legende, #txt, #infotext-2 {
+/* infotext apearence */
+[id^=infotext-] {
 	visibility: hidden;
 	opacity: 0;
+	transform: translate(-30px, 0);
 	transition: all .5s ease;
 }
-#infotext-1, #legende.show {
-	visibility: visible;
-	opacity: 1;
-	transition: all .5s .5s ease;
-}
-#txt.show, #infotext-2.show {
-	visibility: visible;
-	opacity: 1;
-	transition: all .5s ease;
-}
-
-#info-line-2 {
-	visibility: hidden;
-	opacity: 0;
-	transform: translate(0, -10px);
-	transition: all .5s ease;
-}
-#info-icon-2:hover ~ #info-line-2 {
+[id^=infotext-].show {
 	visibility: visible;
 	opacity: 1;
 	transform: translate(0, 0);
 	transition: all .5s ease;
 }
 
-#txt #txt-co2 {
+/* table apearence */
+#table {
+	visibility: hidden;
+	opacity: 0;
 	transition: all .5s ease;
-	transform: translate(0, -10px);
 }
-#txt.show #txt-co2 {
+#table #count {
+	transform: translate(0, 10px);
+	transition: all .5s ease;
+}
+#table.show {
+	visibility: visible;
+	opacity: 1;
+	transition: all .5s ease;
+}
+#table.show #count {
 	transform: translate(0, 0);
 	transition: all .5s ease;
 }
@@ -273,4 +257,14 @@ body {
 /* Reset styles */
 #reset {
 	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+	transform: translate(-30px, 0);
+	transition: all .5s ease;
+}
+#reset.show {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0);
+	transition: all .5s ease;
 }

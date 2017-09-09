@@ -17,10 +17,10 @@ Snap.load("infographic3.svg", function(f) {
 	var factBox1 = s.rect(96.5, 358, 390, 0, 10);
 	factBox1.attr({ fill:'url(#grad-frame1)', stroke:'#1B7A88', strokeWidth:2, strokeMiterlimit:10, opacity:0 });
 
-	var factBox2 = s.rect(510, 308, 390, 0, 10);
+	var factBox2 = s.rect(510, 293, 390, 0, 10);
 	factBox2.attr({ fill:'url(#grad-frame2)', stroke:'#1B7A88', strokeWidth:2, strokeMiterlimit:10, opacity:0 });
 
-	var factBox3 = s.rect(420, 535, 0, 370, 10);
+	var factBox3 = s.rect(440, 577.5, 0, 325, 10);
 	factBox3.attr({ fill:'url(#grad-frame3)', stroke:'#1B7A88', strokeWidth:2, strokeMiterlimit:10, opacity:0 });
 
 	var factSpots = f.selectAll("*[id^='fact-spot']");
@@ -32,11 +32,11 @@ Snap.load("infographic3.svg", function(f) {
 				this.addClass('clicked');
 
 				if (this.attr('id') == 'fact-spot1') {
-					factBox1.animate({ height: 315, opacity:1 }, 500, mina.ease);
+					factBox1.animate({ height: 305, opacity:1 }, 500, mina.ease);
 				} else if (this.attr('id') == 'fact-spot2') {
-					factBox2.animate({ height: 355, opacity:1 }, 500, mina.ease);
+					factBox2.animate({ height: 265, opacity:1 }, 500, mina.ease);
 				} else {
-					factBox3.animate({ width: 480, opacity:1 }, 500, mina.ease);
+					factBox3.animate({ width: 460, opacity:1 }, 500, mina.ease);
 				}
 			}
 

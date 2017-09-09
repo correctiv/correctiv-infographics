@@ -6,15 +6,15 @@
 .st4{fill:url(#graph-bg_2_);}
 .st5{fill:#FC6269;}
 .st6{fill:#FFFFFF;}
-
-.st8{font-size:18px;}
+.st7{fill:none;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:5,2.5;}
+	.st8{font-size:18px;}
 .st9{fill:none;stroke:#1B7A88;stroke-miterlimit:10;}
 .st10{fill:url(#graph-bg_3_);}
 .st11{fill:#1B7A88;}
 .st12{fill:none;stroke:#353535;stroke-miterlimit:10;}
 .st13{fill:none;stroke:#353535;stroke-width:2;stroke-miterlimit:10;}
 .st14{fill:#FFFFFF;stroke:#353535;stroke-width:0.25;stroke-miterlimit:10;}
-
+.st15{fill:none;stroke:#1B7A88;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 .st16{fill:#666666;stroke:#FC6269;stroke-width:2;stroke-miterlimit:10;}
 .st17{fill:#FEC0C3;}
 .st18{opacity:0.5;fill:#FFFFFF;}
@@ -43,6 +43,7 @@
 .st41{display:inline;}
 .st42{fill:#A4CACF;}
 .st43{fill:#D4F2F4;stroke:#1B7A88;stroke-width:2;stroke-miterlimit:10;}
+.st44{fill:none;stroke:#FC6269;stroke-width:22;stroke-miterlimit:10;}
 /*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,500,900);
 
@@ -53,7 +54,7 @@ body {
 	font-family: 'Roboto', sans-serif; 
 	font-weight: bold;
 	font-style: normal;
-	font-size: 12px;
+	font-size: 18px;
 }
 body .font-reg {
 	font-weight: normal;
@@ -66,8 +67,32 @@ body .font-reg {
 #graph-ref {
 	display: none;
 }
+
+/* Fact-spots styles */
 [id^=fact-spot] {
 	cursor: pointer;
+}
+[id^=fact-spot] > circle:first-child {
+	transition: opacity .5s ease;
+}
+
+[id^=fact-spot].clicked > circle:first-child {
+	opacity: 1;
+	transition: opacity .5s ease;
+}
+[id^=fact-spot] > circle:nth-child(2) {
+	transition: fill .5s ease;
+}
+[id^=fact-spot].clicked > circle:nth-child(2) {
+	fill: #D4F2F4;
+	transition: fill .5s ease;
+}
+[id^=fact-spot]> text span {
+	transition: fill .5s ease;
+}
+[id^=fact-spot].clicked > text tspan {
+	fill: #4995A0;
+	transition: fill .5s ease;
 }
 
 /* initialize Facts boxes */

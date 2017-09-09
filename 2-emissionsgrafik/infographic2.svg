@@ -29,7 +29,7 @@
 						c-1.4,2.5,0.4,5.6,3.3,5.6h152.5c2.9,0,4.7-3.1,3.3-5.6l-76.2-132C330.5,565.1,329.3,564.5,328,564.5L328,564.5z"/>
 				</g>
 				<text transform="matrix(0.9977 0 0 1 315.7 679.4843)" class="st55 st12">!</text>
-				<text transform="matrix(0.9977 0 0 1 311.343 630.5776)"><tspan x="0" y="0" class="st0 st13">Nur</tspan><tspan x="-14.5" y="20" class="st0 st13">40 Mio.  </tspan><tspan x="-34.4" y="40" class="st0 st13">Tonnen CO2  </tspan><tspan x="-20.2" y="60" class="st0 st13">reduziert</tspan></text>
+				<text transform="matrix(0.9977 0 0 1 311.343 630.5776)"><tspan x="0" y="0" class="st0">Nur</tspan><tspan x="-14.5" y="20" class="st0">40 Mio.  </tspan><tspan x="-34.4" y="40" class="st0">Tonnen CO2  </tspan><tspan x="-20.2" y="60" class="st0">reduziert</tspan></text>
 			</g>
 		</g>
 		<g id="warning2">
@@ -43,7 +43,7 @@
 						c-1.8,3.1,0.5,7.1,4.1,7.1h190.6c3.6,0,5.9-3.9,4.1-7.1l-95.3-165C699.2,545.8,697.6,545,696,545L696,545z"/>
 				</g>
 				<text transform="matrix(0.9977 0 0 1 682.6306 684.4843)" class="st55 st12">!</text>
-				<text transform="matrix(0.9977 0 0 1 675.3103 631.5776)"><tspan x="0" y="0" class="st0 st13">Noch </tspan><tspan x="-15.5" y="21.6" class="st0 st13">156 Mio.  </tspan><tspan x="-30.4" y="43.2" class="st0 st13">Tonnen CO2  </tspan><tspan x="-34.2" y="64.8" class="st0 st13">zu reduzieren</tspan></text>
+				<text transform="matrix(0.9977 0 0 1 675.3103 631.5776)"><tspan x="0" y="0" class="st0">Noch </tspan><tspan x="-15.5" y="21.6" class="st0">156 Mio.  </tspan><tspan x="-30.4" y="43.2" class="st0">Tonnen CO2  </tspan><tspan x="-34.2" y="64.8" class="st0">zu reduzieren</tspan></text>
 			</g>
 		</g>
 		<g id="graph-2013">
@@ -55,7 +55,7 @@
 		</g>
 		<g class="info-farming">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 146.0254 463.3755)" class="st17 st13">65,24</text>
+				<text transform="matrix(1 0 0 1 146.0254 463.3755)" class="st17">65,24</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st9" cx="169" cy="488.4" r="23.5"/>
@@ -77,7 +77,7 @@
 		</g>
 		<g class="info-building">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 153.5093 530.7758)" class="st17 st13">101</text>
+				<text transform="matrix(1 0 0 1 153.5093 530.7758)" class="st17">101</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st20" cx="169" cy="555.8" r="23.5"/>
@@ -89,7 +89,7 @@
 		</g>
 		<g class="info-transport">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 153.5093 634.7756)" class="st17 st13">159</text>
+				<text transform="matrix(1 0 0 1 153.5093 634.7756)" class="st17">159</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st9" cx="169" cy="659.8" r="23.5"/>
@@ -113,7 +113,7 @@
 		</g>
 		<g class="info-energy">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 153.5093 845.1765)" class="st17 st13">367</text>
+				<text transform="matrix(1 0 0 1 153.5093 845.1765)" class="st17">367</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st20" cx="169" cy="870.2" r="22.5"/>
@@ -132,7 +132,7 @@
 		</g>
 		<g class="info-farming">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 469.1904 496.5357)" class="st17 st13">66,8</text>
+				<text transform="matrix(1 0 0 1 469.1904 496.5357)" class="st17">66,8</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st9" cx="487" cy="521.5" r="23.5"/>
@@ -154,7 +154,7 @@
 		</g>
 		<g class="info-building">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 469.1904 558.416)" class="st17 st13">87,9</text>
+				<text transform="matrix(1 0 0 1 469.1904 558.416)" class="st17">87,9</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st20" cx="486.8" cy="583.4" r="23.5"/>
@@ -166,7 +166,7 @@
 		</g>
 		<g class="info-transport">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 471.5107 659.9765)" class="st17 st13">166</text>
+				<text transform="matrix(1 0 0 1 471.5107 659.9765)" class="st17">166</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st9" cx="487" cy="685" r="23.5"/>
@@ -190,7 +190,7 @@
 		</g>
 		<g class="info-energy">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 471.5107 859.1756)" class="st17 st13">332</text>
+				<text transform="matrix(1 0 0 1 471.5107 859.1756)" class="st17">332</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st20" cx="487" cy="884.2" r="23.5"/>
@@ -209,7 +209,7 @@
 		</g>
 		<g class="info-farming">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 893.1905 571.1758)" class="st17 st13">67,8</text>
+				<text transform="matrix(1 0 0 1 893.1905 571.1758)" class="st17">67,8</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st24" cx="911" cy="596.2" r="23.5"/>
@@ -231,7 +231,7 @@
 		</g>
 		<g class="info-building">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 893.1905 623.6157)" class="st17 st13">63,3</text>
+				<text transform="matrix(1 0 0 1 893.1905 623.6157)" class="st17">63,3</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st26" cx="911" cy="648.6" r="23.5"/>
@@ -243,7 +243,7 @@
 		</g>
 		<g class="info-transport">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 888.0269 705.4562)" class="st17 st13">141,3</text>
+				<text transform="matrix(1 0 0 1 888.0269 705.4562)" class="st17">141,3</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st24" cx="911" cy="730.5" r="23.5"/>
@@ -267,7 +267,7 @@
 		</g>
 		<g class="info-energy">
 			<g class="nbr">
-				<text transform="matrix(1 0 0 1 888.0269 876.9763)" class="st17 st13">287,5</text>
+				<text transform="matrix(1 0 0 1 888.0269 876.9763)" class="st17">287,5</text>
 			</g>
 			<g class="icon">
 				<circle class="bg st26" cx="911" cy="902" r="23.5"/>
@@ -286,15 +286,15 @@
 				<line class="st29" x1="542" y1="548.3" x2="532" y2="548.3"/>
 			</g>
 			<g class="box">
-				<path class="st30" d="M814,621.4H584c-2.8,0-5-2.2-5-5v-115c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v115
-				C819,619.1,816.8,621.4,814,621.4z"/>
+				<path class="st30" d="M814,611.4H584c-2.8,0-5-2.2-5-5v-95c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v95
+				C819,609.1,816.8,611.4,814,611.4z"/>
 				<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="578" y1="558.8555" x2="820" y2="558.8555">
 					<stop  offset="0" style="stop-color:#777777"/>
 					<stop  offset="1" style="stop-color:#55ADBA"/>
 				</linearGradient>
-				<path class="st31" d="M814,621.4H584c-2.8,0-5-2.2-5-5v-115c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v115
-				C819,619.1,816.8,621.4,814,621.4z"/> 
-				<text transform="matrix(1 0 0 1 597.5 521.276)"><tspan x="0" y="0" class="st25 st13">Um das Ziel zu erreichen </tspan><tspan x="-5.3" y="21.6" class="st25 st13">dürfte jeder Deutsche nur </tspan><tspan x="-14.3" y="43.2" class="st25 st13">noch 100 Gramm Fleisch am </tspan><tspan x="-14.4" y="64.8" class="st25 st13">Tag essen -also rund halb so </tspan><tspan x="33.7" y="86.4" class="st25 st13">viel wie bislang.</tspan></text>
+				<path class="st31" d="M814,611.4H584c-2.8,0-5-2.2-5-5v-95c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v95
+				C819,609.1,816.8,611.4,814,611.4z"/>
+				<text transform="matrix(1 0 0 1 601.306 531.776)"><tspan x="0" y="0" class="st25">Um das Ziel zu erreichen </tspan><tspan x="10.4" y="21.6" class="st25">dürfte jeder Deutsche  </tspan><tspan x="-5.9" y="43.2" class="st25">nur noch rund halb so viel </tspan><tspan x="15" y="64.8" class="st25">Hühnerfleisch essen.</tspan></text>
 			</g>
 			<g>
 				<line class="st35" x1="858" y1="623.3" x2="858" y2="569.1"/>
@@ -319,7 +319,7 @@
 				</linearGradient>
 				<path class="st41" d="M814,678.5H584c-2.8,0-5-2.2-5-5v-115c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v115
 				C819,676.3,816.8,678.5,814,678.5z"/>
-				<text transform="matrix(1 0 0 1 598.9661 577.9968)"><tspan x="0" y="0" class="st25 st13">Um das Ziel zu erreichen, </tspan><tspan x="22.7" y="21.6" class="st25 st13">müssten insgesamt  </tspan><tspan x="-1.1" y="43.2" class="st25 st13">14 Millionen Wohnungen  </tspan><tspan x="4.8" y="64.8" class="st25 st13">auf Passivhausstandard  </tspan><tspan x="29.3" y="86.4" class="st25 st13">gebracht werden.</tspan></text>
+				<text transform="matrix(1 0 0 1 598.9661 577.9968)"><tspan x="0" y="0" class="st25">Um das Ziel zu erreichen, </tspan><tspan x="22.7" y="21.6" class="st25">müssten insgesamt  </tspan><tspan x="-1.1" y="43.2" class="st25">14 Millionen Wohnungen  </tspan><tspan x="4.8" y="64.8" class="st25">auf Passivhausstandard  </tspan><tspan x="29.3" y="86.4" class="st25">gebracht werden.</tspan></text>
 			</g>
 			<g>
 				<line class="st42" x1="540" y1="548.3" x2="540" y2="618.6"/>
@@ -344,7 +344,7 @@
 				</linearGradient>
 				<path class="st44" d="M814,759.3H584c-2.8,0-5-2.2-5-5v-95c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v95
 					C819,757,816.8,759.3,814,759.3z"/>
-				<text transform="matrix(1 0 0 1 598.9661 679.9968)"><tspan x="0" y="0" class="st25 st13">Um das Ziel zu erreichen, </tspan><tspan x="14.3" y="21.6" class="st25 st13">müssten 12 Millionen </tspan><tspan x="7.3" y="43.2" class="st25 st13">Mittelklasse-Fahrer auf </tspan><tspan x="24.3" y="64.8" class="st25 st13">Elektro umsteigen.</tspan></text>
+				<text transform="matrix(1 0 0 1 598.9661 679.9968)"><tspan x="0" y="0" class="st25">Um das Ziel zu erreichen, </tspan><tspan x="14.3" y="21.6" class="st25">müssten 12 Millionen </tspan><tspan x="7.3" y="43.2" class="st25">Mittelklasse-Fahrer auf </tspan><tspan x="24.3" y="64.8" class="st25">Elektro umsteigen.</tspan></text>
 			</g>
 			<g>
 				<line class="st28" x1="540" y1="618.6" x2="540" y2="751.4"/>
@@ -369,7 +369,7 @@
 				</linearGradient>
 				<path class="st45" d="M814,945.4H584c-2.8,0-5-2.2-5-5v-95c0-2.8,2.2-5,5-5h230c2.8,0,5,2.2,5,5v95
 				C819,943.2,816.8,945.4,814,945.4z"/>
-				<text transform="matrix(1 0 0 1 601.306 866.6682)"><tspan x="0" y="0" class="st25 st13">Um das Ziel zu erreichen </tspan><tspan x="12" y="21.6" class="st25 st13">müssten 32 Millionen </tspan><tspan x="15.1" y="43.2" class="st25 st13">Haushalte Ökostrom  </tspan><tspan x="58.5" y="64.8" class="st25 st13">beziehen.</tspan></text>
+				<text transform="matrix(1 0 0 1 601.306 866.6682)"><tspan x="0" y="0" class="st25">Um das Ziel zu erreichen </tspan><tspan x="12" y="21.6" class="st25">müssten 32 Millionen </tspan><tspan x="15.1" y="43.2" class="st25">Haushalte Ökostrom  </tspan><tspan x="58.5" y="64.8" class="st25">beziehen.</tspan></text>
 			</g>
 			<g>
 				<line class="st42" x1="540" y1="751.4" x2="540" y2="1017"/>
@@ -379,44 +379,44 @@
 		</g>
 		<line id="line-top-2016" class="st46" x1="487" y1="272.2" x2="487" y2="286.2"/>
 		<g id="txt-co2-2013">
-			<text transform="matrix(1 0 0 1 126.4063 215.9526)"><tspan x="0" y="0" class="st19 font-reg st13">insgesamt</tspan><tspan x="-39.7" y="20" class="st19 st13">945 Mio Tonnen CO</tspan><tspan x="119.7" y="20" class="st19 st47">2</tspan></text>
+			<text transform="matrix(1 0 0 1 126.4063 215.9526)"><tspan x="0" y="0" class="st19 font-reg">insgesamt</tspan><tspan x="-39.7" y="20" class="st19">945 Mio Tonnen CO</tspan><tspan x="119.7" y="20" class="st19 st47">2</tspan></text>
 			<line class="st46" x1="169" y1="255" x2="169" y2="241"/>
 			<line class="st48" x1="86.5" y1="241" x2="251.5" y2="241"/>
 		</g>
 		<g id="txt-co2-2016">
-			<text transform="matrix(1 0 0 1 444.4063 247.1528)"><tspan x="0" y="0" class="st19 font-reg st13">insgesamt</tspan><tspan x="-39.7" y="20" class="st19 st13">906 Mio Tonnen CO<tspan x="119.7" y="20" class="st19 st47">2</tspan></tspan></text>
+			<text transform="matrix(1 0 0 1 444.4063 247.1528)"><tspan x="0" y="0" class="st19 font-reg">insgesamt</tspan><tspan x="-39.7" y="20" class="st19">906 Mio Tonnen CO<tspan x="119.7" y="20" class="st19 st47">2</tspan></tspan></text>
 			<line class="st48" x1="404.5" y1="272.2" x2="569.5" y2="272.2"/>
 		</g>
 		<g id="txt-co2-2020">
 			<path class="st25" d="M962.8,355H859.2c-4.8,0-8.7-3.9-8.7-8.6v-7.7c0-4.8,3.9-8.6,8.7-8.6h103.7c4.8,0,8.7,3.9,8.7,8.6v7.7
 			C971.5,351.1,967.6,355,962.8,355z"/>
-			<text transform="matrix(1 0 0 1 856.9883 349.25)"><tspan x="0" y="0" class="st11 st13">Ziel für 2020:</tspan><tspan x="-28.2" y="23" class="st25 st13">750 Mio Tonnen CO<tspan x="131.1" y="23" class="st25 st47">2</tspan></tspan><tspan x="11.4" y="41" class="st25 font-reg st13">insgesamt</tspan></text>
+			<text transform="matrix(1 0 0 1 856.9883 349.25)"><tspan x="0" y="0" class="st11">Ziel für 2020:</tspan><tspan x="-28.2" y="23" class="st25">750 Mio Tonnen CO<tspan x="131.1" y="23" class="st25 st47">2</tspan></tspan><tspan x="11.4" y="41" class="st25 font-reg">insgesamt</tspan></text>
 			<line class="st49" x1="911" y1="411" x2="911" y2="397"/>
 			<line class="st50" x1="868.5" y1="397" x2="953.5" y2="397"/>
 		</g>
 	</g>
 	<g id="txt">
-		<text transform="matrix(1 0 0 1 148.3481 1044.6655)" class="st19 st13">2013</text>
-		<text transform="matrix(1 0 0 1 254.3477 1044.6655)" class="st51 st13">2014</text>
-		<text transform="matrix(1 0 0 1 360.3486 1044.6655)" class="st51 st13">2015</text>
-		<text transform="matrix(1 0 0 1 466.3457 1044.6655)" class="st19 st13">2016</text>
-		<text transform="matrix(1 0 0 1 566.3457 1044.6655)" class="st51 st13">2017</text>
-		<text transform="matrix(1 0 0 1 672.3457 1044.6655)" class="st51 st13">2018</text>
-		<text transform="matrix(1 0 0 1 778.3457 1044.6655)" class="st51 st13">2019</text>
-		<text transform="matrix(1 0 0 1 890.3472 1044.6655)" class="st26 st13">2020</text>
+		<text transform="matrix(1 0 0 1 148.3481 1044.6655)" class="st19">2013</text>
+		<text transform="matrix(1 0 0 1 254.3477 1044.6655)" class="st51">2014</text>
+		<text transform="matrix(1 0 0 1 360.3486 1044.6655)" class="st51">2015</text>
+		<text transform="matrix(1 0 0 1 466.3457 1044.6655)" class="st19">2016</text>
+		<text transform="matrix(1 0 0 1 566.3457 1044.6655)" class="st51">2017</text>
+		<text transform="matrix(1 0 0 1 672.3457 1044.6655)" class="st51">2018</text>
+		<text transform="matrix(1 0 0 1 778.3457 1044.6655)" class="st51">2019</text>
+		<text transform="matrix(1 0 0 1 890.3472 1044.6655)" class="st26">2020</text>
 		<line class="st52" x1="77" y1="1017" x2="972.5" y2="1017"/>
 		<g>
-			<text transform="matrix(1 0 0 1 54.6729 1017.9985)" class="st53 st13">0</text>
-			<text transform="matrix(1 0 0 1 34.0186 938.1089)" class="st53 st13">100</text>
-			<text transform="matrix(1 0 0 1 34.0186 858.2183)" class="st53 st13">200</text>
-			<text transform="matrix(1 0 0 1 34.0186 778.3276)" class="st53 st13">300</text>
-			<text transform="matrix(1 0 0 1 34.0186 698.3276)" class="st53 st13">400</text>
-			<text transform="matrix(1 0 0 1 34.0186 618.3276)" class="st53 st13">500</text>
-			<text transform="matrix(1 0 0 1 34.0186 538.3276)" class="st53 st13">600</text>
-			<text transform="matrix(1 0 0 1 34.0186 458.3276)" class="st53 st13">700</text>
-			<text transform="matrix(1 0 0 1 34.0186 378.3276)" class="st53 st13">800</text>
-			<text transform="matrix(1 0 0 1 34.0186 298.3276)" class="st53 st13">900</text>
-			<text transform="matrix(1 0 0 1 18.4531 218.3286)" class="st53 st13">1.000</text>
+			<text transform="matrix(1 0 0 1 54.6729 1017.9985)" class="st53">0</text>
+			<text transform="matrix(1 0 0 1 34.0186 938.1089)" class="st53">100</text>
+			<text transform="matrix(1 0 0 1 34.0186 858.2183)" class="st53">200</text>
+			<text transform="matrix(1 0 0 1 34.0186 778.3276)" class="st53">300</text>
+			<text transform="matrix(1 0 0 1 34.0186 698.3276)" class="st53">400</text>
+			<text transform="matrix(1 0 0 1 34.0186 618.3276)" class="st53">500</text>
+			<text transform="matrix(1 0 0 1 34.0186 538.3276)" class="st53">600</text>
+			<text transform="matrix(1 0 0 1 34.0186 458.3276)" class="st53">700</text>
+			<text transform="matrix(1 0 0 1 34.0186 378.3276)" class="st53">800</text>
+			<text transform="matrix(1 0 0 1 34.0186 298.3276)" class="st53">900</text>
+			<text transform="matrix(1 0 0 1 18.4531 218.3286)" class="st53">1.000</text>
 		</g>
 		<g>
 			<line class="st52" x1="77" y1="1018" x2="77" y2="216"/>
@@ -443,28 +443,22 @@
 		</g>
 		<path class="st54" d="M157.4,172.3H65.5c-1.2,0-2.3,0.4-3.3,1.2l-16.9,18.8l-19-18.9c-0.9-0.7-2-1.1-3.1-1.1H15c-2.8,0-5-2.2-5-5
 			v-40c0-2.8,2.2-5,5-5h142.4c2.8,0,5,2.2,5,5v40C162.4,170.1,160.1,172.3,157.4,172.3z"/>
-		<text transform="matrix(1 0 0 1 18 143.3833)"><tspan x="0" y="0" class="st53 font-reg st13">Emissionen in </tspan><tspan x="0" y="18" class="st53 font-reg st13">Mio. Tonnen C02</tspan></text>
+		<text transform="matrix(1 0 0 1 18 143.3833)"><tspan x="0" y="0" class="st53 font-reg">Emissionen in </tspan><tspan x="0" y="18" class="st53 font-reg">Mio. Tonnen C02</tspan></text>
 
-		<g id="infotext">
-			<g id="pop-info">
-				<circle class="st55" cx="872" cy="112.4" r="21"/>
-				<path id="icon_21_" class="st56" d="M872,92.4c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S883,92.4,872,92.4z M874.3,123.6h-4.6
-					v-16.9h4.6V123.6z M874.3,102.6h-4.6v-3.4h4.6V102.6z"/>
+		<g id="info">
+			<path id="info-frame" class="st0" d="M943.3,209.2h-150c-2.8,0-5-2.2-5-5v-70c0-2.8,2.2-5,5-5h150c2.8,0,5,2.2,5,5v70
+				C948.3,206.9,946.1,209.2,943.3,209.2z"/>
+			<g id="info-icon">
+				<circle class="st0" cx="868.3" cy="112.4" r="21"/>
+				<path id="icon" class="st25" d="M868.3,92.4c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S879.4,92.4,868.3,92.4z M870.6,123.6
+					H866v-16.9h4.6V123.6z M870.6,102.6H866v-3.4h4.6V102.6z"/>
 			</g>
-			<g id="info-line">
-				<g>
-					<path class="st57" d="M972,196.4H772c-5.5,0-10-4.5-10-10v-32c0-5.5,4.5-10,10-10h200c5.5,0,10,4.5,10,10v32
-					C982,191.9,977.5,196.4,972,196.4z"/>
-					<path class="st58" d="M972,196.4H772c-5.5,0-10-4.5-10-10v-32c0-5.5,4.5-10,10-10h200c5.5,0,10,4.5,10,10v32
-					C982,191.9,977.5,196.4,972,196.4z"/>
-				</g>
-				<text transform="matrix(1 0 0 1 778.2031 164.8989)"><tspan x="0" y="0" class="st53 font-reg st13">Bewege die Maus über</tspan><tspan x="-7.1" y="21.6" class="st53 font-reg st13">die Symbole in der Grafik</tspan></text>
-			</g>
+			<text id="infotext" transform="matrix(1 0 0 1 797.0754 152.6657)"><tspan x="0" y="0" class="st25 font-reg">Bewege die Maus</tspan><tspan x="1.3" y="21.6" class="st25 font-reg">über die Symbole</tspan><tspan x="22.3" y="43.2" class="st25 font-reg">in der Grafik</tspan></text>
 		</g>
 
 		<!-- Icons under title -->
 		<g>
-			<text transform="matrix(1 0 0 1 619.2614 154.3555)" class="st19 st13">Landwirtschaft</text>
+			<text transform="matrix(1 0 0 1 619.2614 154.3555)" class="st19">Landwirtschaft</text>
 			<g id="icon-farming">
 				<g class="icon">
 					<circle class="bg st0" cx="680" cy="112.4" r="23.5"/>
@@ -487,7 +481,7 @@
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(1 0 0 1 524.383 154.3555)" class="st19 st13">Gebäude</text>
+			<text transform="matrix(1 0 0 1 524.383 154.3555)" class="st19">Gebäude</text>
 			<g id="icon-building">
 				<g class="icon">
 					<circle class="bg st0" cx="560" cy="112.4" r="23.5"/>
@@ -499,7 +493,7 @@
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(1 0 0 1 408.5441 154.3555)" class="st19 st13">Verkehr</text>
+			<text transform="matrix(1 0 0 1 408.5441 154.3555)" class="st19">Verkehr</text>
 			<g id="icon-transport">
 				<g class="icon">
 					<circle class="bg st0" cx="440" cy="112.4" r="23.5"/>
@@ -523,7 +517,7 @@
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(1 0 0 1 289.5928 154.3555)" class="st19 st13">Energie</text>
+			<text transform="matrix(1 0 0 1 289.5928 154.3555)" class="st19">Energie</text>
 			<g id="icon-energy">
 				<g class="icon">
 					<circle class="bg st0" cx="320" cy="112.4" r="23.5"/>
@@ -536,7 +530,7 @@
 		</g>
 		<text transform="matrix(1 0 0 1 173.8965 56.6895)" class="st53 st63">Bundesregierung verfehlt Klimaziele</text>
 
-		<text transform="matrix(1 0 0 1 69.3273 1083.6683)" class="st19 font-reg st13">Quellen: Emissionsdaten 2013 und 2016: UBA, Projektion 2020: Projektionsbericht 2015, Tabelle 1-3 (S. 24)</text>
+		<text transform="matrix(1 0 0 1 69.3273 1083.6683)" class="st19 font-reg">Quellen: Emissionsdaten 2013 und 2016: UBA, Projektion 2020: Projektionsbericht 2015, Tabelle 1-3 (S. 24)</text>
 
 		<text id="credits" transform="matrix(1 0 0 1 312.2892 1122.2764)" class="st33 font-reg st24">
 			<a id="g1" href="https://correctiv.org/" target="_blank">Correctiv.org</a> | 
